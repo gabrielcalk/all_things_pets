@@ -6,9 +6,7 @@ Files structure:
 Develop{
 	1-config
 	2-controller{
-		api{
-
-		}
+		api
 	}
 	3-db	
 	4-public{
