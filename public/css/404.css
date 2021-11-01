@@ -1,0 +1,232 @@
+:root{
+    --color3: #f6f6f6
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    min-width: 320px;
+    height: 100vh;
+}
+
+h2{
+    color: var(--color3)
+}
+
+h3{
+    color: var(--color3)
+}
+
+.bedroom {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    background-color: #32303e;
+    overflow: hidden;
+    animation: bedroom-color 6s step-end infinite;
+}
+.nightstand {
+    position: relative;
+    flex: 0 0 40%;
+    max-width: 400px;
+    min-height: 147px;
+    height: calc(100% * 147 / 476);
+}
+.bed {
+    position: relative;
+    flex: 0 0 60%;
+    min-height: 213px;
+    height: calc(100% * 213 / 476);
+}
+
+/**
+ * Nightstand area
+ */
+.lamp-light-svg {
+    position: absolute;
+    height: calc(100% * 1290 / 147);
+    transform: translate(calc(-100% * 597 / 1290), calc(-100% * 722 / 1290));
+}
+.lamp-glow-svg {
+    position: absolute;
+    height: calc(100% * 210 / 147);
+    transform: translate(calc(-100% * 206 / 499), calc(-100% * 328 / 210));
+}
+.lamp-shadow-svg {
+    position: absolute;
+    height: 100%;
+    transform: translate(calc(-100% * 500 / 900), 0);
+}
+.lamp-svg {
+    position: absolute;
+    height: calc(100% * 107 / 147);
+    transform: translate(calc(100% * 6 / 92), -100%);
+    z-index: 1;
+}
+.clock-svg {
+    position: absolute;
+    height: calc(100% * 34 / 147);
+    transform: translate(calc(100% * 78 / 75), -100%)
+}
+.clock-front {
+    animation: clock-front-color 6s step-end infinite;
+}
+.nightstand-svg {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    transform: translate(calc(100% * 8 / 153), 0);
+}
+
+/**
+ * Bed area
+ */
+.bed-svg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+.cat {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 112px;
+    width: calc(100vh * 112 / 476);
+    height: calc(100% * 159 / 213);
+    transform: translate(calc(-100% * 64 / 112), calc(-100% * 112 / 164));
+}
+.cat-svg {
+    position: absolute;
+    height: 100%;
+}
+.cat-eye {
+    animation: cat-eye-color 6s step-end infinite;
+}
+.cat-paw-svg {
+    position: absolute;
+    top: calc(100% * 72 / 159);
+    left: calc(100% * 96 / 112);
+    height: calc(100% * 47 / 159);
+    transform-origin: 0 0;
+    z-index: 1;
+    animation: 3s cat-paw 2.75s linear infinite;
+}
+.lamp-switch-1-svg {
+    position: absolute;
+    top: calc(100% * 57 / 159);
+    left: calc(100% * 163 / 112);
+    height: calc(100% * 49 / 159);
+    animation: 3s lamp-switch-1 2.75s linear infinite;
+}
+.lamp-switch-2-svg {
+    position: absolute;
+    top: calc(100% * 106 / 159);
+    left: calc(100% * 163 / 112);
+    width: calc(100% / 112);
+    height: calc(100% * 18 / 159);
+    animation: 3s lamp-switch-2 2.75s linear infinite;
+}
+.blanket-svg {
+    position: absolute;
+    right: 0;
+    transform: translate(calc(-100% * 2 / 417), calc(100% * 26 / 144));
+    height: calc(100% * 144 / 213);
+    z-index: 1;
+}
+
+/**
+ * Animations
+ */
+.lamp-light-svg,
+.lamp-glow-svg,
+.lamp-shadow-svg,
+.blanket-shadow,
+.bed-back-shadow,
+.bed-pillow-shadow,
+.lamp-switch-shadow,
+.lamp-stem-glow,
+.lamp-shade,
+.clock-button-shadow,
+.cat-eye-pupil {
+    animation: hide 6s step-end infinite;
+}
+.lamp-shade-dark {
+    animation: show 6s step-end infinite;
+}
+.bed-front-shadow,
+.bed-matress-shadow,
+.bed-back-shadow-2,
+.blanket-shadow-2,
+.bed-pillow-shadow-2,
+.lamp-stem-shadow,
+.lamp-switch-shadow-2,
+.nightstand-shadow {
+    animation: darken 6s step-end infinite;
+}
+
+@keyframes bedroom-color {
+    50% {
+        background-color: #080810;
+    }
+}
+@keyframes clock-front-color {
+    50% {
+        fill: #000;
+    }
+}
+@keyframes cat-eye-color {
+    50% {
+        fill: #fffdb2;
+    }
+}
+@keyframes hide {
+    50% {
+        fill-opacity: 0;
+    }
+}
+@keyframes show {
+    50% {
+        fill-opacity: 1;
+    }
+}
+@keyframes darken {
+    50% {
+        fill-opacity: .86;
+    }
+}
+@keyframes cat-paw {
+    0%, 10% {
+        transform: rotate(0deg);
+    }
+    5% {
+        transform: rotate(10deg);
+    }
+}
+@keyframes lamp-switch-1 {
+    0%, 10% {
+        transform: translate(0, 0);
+    }
+    5% {
+        transform: translate(0, calc(100% * 6 / 49));
+    }
+}
+@keyframes lamp-switch-2 {
+    0%, 10% {
+        transform: translate(0, 0);
+    }
+    5% {
+        transform: translate(calc(-100% * 9), calc(100% * 10 / 18));
+    }
+}
