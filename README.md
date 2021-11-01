@@ -2,7 +2,7 @@
 This is one project created in group (Back End to The Future)
 
 Files structure: 
-///
+```
 Develop{
 	1-config
 	2-controller{
@@ -19,4 +19,4 @@ Develop{
 	7-utilits
 	8-images(mock-up)
 }
-///
+```
