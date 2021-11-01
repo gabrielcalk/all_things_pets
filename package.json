@@ -1,20 +1,18 @@
 {
-  "name": "company_dashboard",
+  "name": "y",
   "version": "1.0.0",
-  "description": "This is one project created in group (Back End to The Future)",
-  "main": "index.js",
+  "description": "y",
+  "main": "y",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "y"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrielcalk/company_dashboard.git"
+    "url": "y"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gabrielcalk/company_dashboard/issues"
-  },
-  "homepage": "https://github.com/gabrielcalk/company_dashboard#readme",
-  "keywords": []
+  "keywords": [
+    "y"
+  ],
+  "author": "y",
+  "license": "ISC"
 }
