@@ -1,18 +1,39 @@
 {
-  "name": "y",
+  "name": "all_things_pets",
   "version": "1.0.0",
-  "description": "y",
-  "main": "y",
+  "description": "second group project \"database\"",
+  "main": "server.js",
   "scripts": {
-    "test": "y"
+    "test": "none",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "y"
+    "url": "git+https://github.com/gabrielcalk/all_things_pets.git"
   },
   "keywords": [
-    "y"
+    "SQL",
+    "db",
+    "pets"
   ],
-  "author": "y",
-  "license": "ISC"
+  "author": "Brent Graves Gabriel Cavalcante Causin Fenix Huston Sampson and Meredith Coyne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielcalk/all_things_pets/issues"
+  },
+  "homepage": "https://github.com/gabrielcalk/all_things_pets#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.2",
+    "nodemon": "^2.0.14",
+    "sequelize": "^6.7.0",
+    "uuid": "^8.3.2"
+  }
 }
