@@ -2,16 +2,15 @@ const path = require("path");
 const express = require("express");
 const session = require("express-session");
 const exphbs = require("express-handlebars");
-const routes = require("./controllers");
-const helpers = require("./utils/helpers");
+// const helpers = require("./utils/helpers");
 
-const sequelize = require("./config/connection");
+const sequelize = require("./config/connections");
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const hbs = exphbs.create({ helpers });
+// const hbs = exphbs.create({ helpers });
 
 const sess = {
     secret: process.env.SESS_SECRET,
@@ -23,17 +22,45 @@ const sess = {
     })
 };
 
-app.use(session(sess));
+// app.use(session(sess));
 
-app.engine("handlebars", hbs.engine);
+// app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use(routes);
+// Routers
+// Home Router: /
+const homeRouter = require('./controllers/home');
+app.use(homeRouter);
+
+// SignUp Router: /signup
+const signupRouter = require('./controllers/signup');
+app.use('/signup', signupRouter);
+
+// Login Router: /login
+const loginRouter = require('./controllers/login');
+app.use('/login', loginRouter);
+
+// Questions Router: /questions
+const questionsRouter = require('./controllers/questions');
+app.use('/questions', questionsRouter);
+
+// Pets Router: /pets-for-you
+const petsRouter = require('./controllers/pets-for-you');
+app.use('/pets-for-you', petsRouter);
+
+// Info Router: /info
+const infoRouter = require('./controllers/info');
+app.use('/info', infoRouter);
+
+// 404 page
+app.use((req,res) =>{
+    res.sendFile(path.join(__dirname, './public', '/html', '404page.html'))
+})
 
 sequelize.sync({ force: false }).then(() => {
-    app.listen(PORT, () => console.log(`Now listening on PORT: ${PORT}`))
+    app.listen(PORT, () => console.log(`Now listening on PORT: ${PORT}: http://localhost:${PORT}`))
 });
