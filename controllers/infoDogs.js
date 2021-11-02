@@ -1,7 +1,7 @@
 const infoDogsRouter = require('express').Router();
 const Dogs = require('../models');
 
-router.get('/', async (req, res) => {
+infoDogsRouter.get('/', async (req, res) => {
     try{
       const product_data = await Product.findAll({
         include: [{model: Dogs} ]
@@ -11,3 +11,5 @@ router.get('/', async (req, res) => {
       res.status(400).json(err)
     }
 });
+
+module.exports = infoDogsRouter
