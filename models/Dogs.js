@@ -15,7 +15,7 @@ Dogs.init(
             type: DataTypes.STRING,
             allowNull: false
         },
-        breed: {
+        breedName: {
             type: DataTypes.STRING,
         },
         hypoallergenic: {
@@ -28,11 +28,12 @@ Dogs.init(
         coat: {
             type: DataTypes.STRING,
         },
-        size: {
-            type: DataTypes.STRING,
-        },
         weight: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.TEXT,
+            allowNull: false,
+        },
+        height: {
+            type: DataTypes.TEXT,
             allowNull: false,
         },
         temperment: {
