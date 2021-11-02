@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require("sequelize");
-const sequelize = require("../config/connection");
+const sequelize = require("../config/connections");
 // sequelize Cats model
 class Cats extends Model {}
 
-catsMessage.init(
+Cats.init(
     {
         id: {
             type: DataTypes.INTEGER,
