@@ -1,7 +1,7 @@
 const homeRouter = require('express').Router()
 
 homeRouter.get('/', (req, res) =>{
-    res.send('Home Page')
+    res.render('homepage')
 })
 
 module.exports = homeRouter;

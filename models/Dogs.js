@@ -18,12 +18,15 @@ Dogs.init(
         breedName: {
             type: DataTypes.STRING,
         },
+        hypoallergenic: {
+            type: DataTypes.BOOLEAN,
+        }, 
         lifeSpan: {
             type: DataTypes.INTEGER,
             allowNull: false,
         },
-        hair: {
-            type: DataTypes.TEXT,
+        coat: {
+            type: DataTypes.STRING,
         },
         weight: {
             type: DataTypes.TEXT,
@@ -34,22 +37,19 @@ Dogs.init(
             allowNull: false,
         },
         temperment: {
-            type: DataTypes.BOOLEAN,
+            type: DataTypes.STRING,
         },
-        hypoallergenic: {
-            type: DataTypes.BOOLEAN,
-        }, 
         children: {
             type: DataTypes.BOOLEAN,
         },
         guarding: {
             type: DataTypes.BOOLEAN,
         },
+        dependence: {
+            type: DataTypes.STRING,
+        },
         Sports: {
             type:DataTypes.BOOLEAN,
-        },
-        dependence: {
-            type: DataTypes.BOOLEAN,
         },
         hunting: {
             type: DataTypes.BOOLEAN,
@@ -59,19 +59,19 @@ Dogs.init(
             allowNull: false,
         },
         yardSize: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
+            type: DataTypes.STRING,
         },
         trainingReqs: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
+            type: DataTypes.STRING,
         },
         exerciseReqs: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
+            type: DataTypes.STRING,
         },
         priorExpReq: {
-            type: DataTypes.BOOLEAN
+            type: DataTypes.STRING,
+        },
+        vet: {
+            type: DataTypes.STRING,
         },
         description: {
             type: DataTypes.STRING,
