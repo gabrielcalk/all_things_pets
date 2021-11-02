@@ -22,7 +22,6 @@ const sess = {
         db: sequelize
     })
 };
-
 // app.use(session(sess));
 try {
     sequelize.authenticate();
@@ -63,6 +62,10 @@ app.use('/pets-for-you', petsRouter);
 // Info Router: /info
 const infoRouter = require('./controllers/info');
 app.use('/info', infoRouter);
+
+// Info Router: /infoDogs
+const infoDogsRouter = require('./controllers/infoDogs');
+app.use('/infoDogs', infoDogsRouter);
 
 // 404 page
 app.use((req,res) =>{
