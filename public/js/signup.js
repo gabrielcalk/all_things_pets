@@ -1,15 +1,20 @@
+// Done
+// Getting the button on the signup page
+const button_signup = document.querySelector('#button_signup')
+
+//Posting the pets Name, email and password
 async function signupFormHandler(event) {
     event.preventDefault();
 
-    const username = document.querySelector('#username-signup').value.trim();
+    const pets = document.querySelector('#pets-signup').value.trim();
     const email = document.querySelector('#email-signup').value.trim();
     const password = document.querySelector('#password-signup').value.trim();
 
-    if (username && email && password) {
+    if (pets && email && password) {
         const response = await fetch('/api/users', {
             method: 'POST', 
             body: JSON.stringify({
-                username,
+                pets,
                 email,
                 password   
             }),
@@ -24,4 +29,4 @@ async function signupFormHandler(event) {
     };
 };
 
-document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
+button_signup.addEventListener('click', signupFormHandler);

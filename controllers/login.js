@@ -1,7 +1,7 @@
 const loginRouter = require('express').Router()
 
 loginRouter.get('/', (req, res) =>{
-    res.send('Login Page')
+    res.render('login', {layout: false})
 })
 
 module.exports = loginRouter;

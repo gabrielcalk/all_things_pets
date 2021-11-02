@@ -1,7 +1,7 @@
 const signupRouter = require('express').Router()
 
 signupRouter.get('/', (req, res) =>{
-    res.send('Signup Page')
+    res.render('signup', {layout:false})
 })
 
 module.exports = signupRouter;

@@ -1,7 +1,9 @@
+const button_signup = document.querySelector('#button_signup')
+
 async function loginFormHandler(event) {
     event.preventDefault();
     
-    const username = document.querySelector('#username-login').value.trim();
+    const username = document.querySelector('#email-login').value.trim();
     const password = document.querySelector('#password-login').value.trim();
 
     if (username && password) {
@@ -22,4 +24,4 @@ async function loginFormHandler(event) {
     }
 }
 
-document.querySelector('.login-form').addEventListener('submit', loginFormHandler);
+button_signup.addEventListener('click', loginFormHandler);
