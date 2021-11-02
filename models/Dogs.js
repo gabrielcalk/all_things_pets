@@ -15,7 +15,7 @@ Dogs.init(
             type: DataTypes.STRING,
             allowNull: false
         },
-        breed: {
+        breedName: {
             type: DataTypes.STRING,
         },
         lifeSpan: {
@@ -25,12 +25,12 @@ Dogs.init(
         hair: {
             type: DataTypes.TEXT,
         },
-        size: {
-            type: DataTypes.INTEGER,
+        weight: {
+            type: DataTypes.TEXT,
             allowNull: false,
         },
-        weight: {
-            type: DataTypes.INTEGER,
+        height: {
+            type: DataTypes.TEXT,
             allowNull: false,
         },
         temperment: {
