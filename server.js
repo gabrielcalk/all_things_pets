@@ -54,10 +54,6 @@ app.use('/login', loginRouter);
 const questionsRouter = require('./controllers/questions');
 app.use('/questions', questionsRouter);
 
-// Pets Router: /pets-for-you
-const petsRouter = require('./controllers/pets-for-you');
-app.use('/pets-for-you', petsRouter);
-
 // Info Router: /info
 const infoRouter = require('./controllers/info');
 app.use('/info', infoRouter);
