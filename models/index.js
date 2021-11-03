@@ -5,6 +5,8 @@ const Dogs = require("./Dogs");
 const dognames = require("./dognames")
 const catnames = require("./catnames")
 const dogfacts = require("./dogfacts")
+
+
 // User.hasMany(Post, {
 //     foreignKey: "userId",
 //     onDelete: "CASCADE"
@@ -13,5 +15,6 @@ const dogfacts = require("./dogfacts")
 // Post.belongsTo(User, {
 //     foreignKey: "userId"
 // });
+
 
 module.exports = { Cats, Dogs };

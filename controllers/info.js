@@ -1,7 +1,7 @@
 const infoRouter = require('express').Router()
 
 infoRouter.get('/', (req, res) =>{
-    res.send('Info Page')
+    res.render('info')
 })
 
 infoRouter.get('/fun-places', (req, res) =>{
