@@ -1,7 +1,7 @@
 const questionsRouter = require('express').Router()
 
 questionsRouter.get('/', (req, res) =>{
-    res.send('Questions Page')
+    res.render('questions')
 })
 
 module.exports = questionsRouter;
