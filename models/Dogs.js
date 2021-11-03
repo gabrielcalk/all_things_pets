@@ -80,8 +80,9 @@ Dogs.init(
     },
 
 {
-sequelize,
-modelName: "dogs",
+    sequelize,
+    modelName: "dogs",
+    timestamps: false,
 }
 );
 
