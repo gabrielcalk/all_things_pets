@@ -16,7 +16,6 @@ dogfacts.init(
             allowNull: false
         },
     },
-
     {
         sequelize,
         modelName: "dogfacts",
