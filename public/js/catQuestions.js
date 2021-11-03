@@ -70,6 +70,8 @@ const catQuestions = [
             'Blue/Gray', 
             'Ginger/Red', 
             'Tortishell', 
+            'Brown',
+            'Tabby',
             'No Preference'
         ],
         answer: []
