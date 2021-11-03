@@ -87,11 +87,20 @@ button:hover{
     background-color: var(--color1);
 }
 
-#login_h3{
+#logout{
+    background-color: #c8a56f;
+    cursor: pointer;
+}
+
+#logout:hover{
+    background-color: var(--color1);
+}
+
+.login_h3{
     font-weight: 700;
 }
 
-#login_h3:hover{
+.login_h3:hover{
     color: var(--color2);
 }
 

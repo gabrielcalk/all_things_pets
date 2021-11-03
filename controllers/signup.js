@@ -1,10 +1,19 @@
 const signupRouter = require('express').Router()
 const User = require('../models/user')
 
+/**
+ * @function signupRouter.get
+ * rendering the /signup page
+ * {layout: false} means that we are not usign the handlebars layout
+ */
 signupRouter.get('/', (req, res) =>{
     res.render('signup', {layout:false})
 });
 
+/**
+ * @function signupRouter.post
+ * Creating one new user with the informations that the she/he provide
+ */
 signupRouter.post('/', async (req, res) =>{
     try{
         const {pets, email, password} = req.body
@@ -24,4 +33,7 @@ signupRouter.post('/', async (req, res) =>{
     }
 });
 
+/**
+ * @exports signupRouter (Will be /signup)
+ */
 module.exports = signupRouter;
