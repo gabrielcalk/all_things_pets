@@ -4,7 +4,9 @@ const session = require("express-session");
 const exphbs = require("express-handlebars");
 // const helpers = require("./utils/helpers");
 const Cats = require("./models/Cats");
-const Dogs = require("./models/Dogs")
+const Dogs = require("./models/Dogs");
+const dognames = require("./models/dognames");
+const catnames = require("./models/catnames");
 const sequelize = require("./config/connections");
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
@@ -63,8 +65,12 @@ app.use('/pets-for-you', petsRouter);
 const infoRouter = require('./controllers/info');
 app.use('/info', infoRouter);
 
+// Name Router : /name
+const nameRouter = require('./controllers/name');
+app.use('/name', nameRouter)
+
 // Info Router: /infoDogs
-const infoDogsRouter = require('./controllers/infoDogs');
+const infoDogsRouter = require('./routes/api/infoDogs');
 app.use('/infoDogs', infoDogsRouter);
 
 // 404 page

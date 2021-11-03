@@ -1,5 +1,5 @@
 const infoDogsRouter = require('express').Router();
-const Dogs = require('../models');
+const Dogs = require('../../models');
 
 infoDogsRouter.get('/', async (req, res) => {
     try{
