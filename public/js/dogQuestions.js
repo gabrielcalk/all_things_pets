@@ -13,32 +13,12 @@ const dogQuestions = [
         ],
     },
     {
-        question: 'Does the dog need to be hypoallergenic?',
-        options: [
-            'Yes',
-            'No',
-            'No preference',
-        ],
-    },
-    {
-        question: 'What type of coat would you like the dog to have?',
-        options: [
-            'Short Coat', 
-            'Long Coat',
-            'Curly Coat',
-            'Wire Haired',
-            'Less Shedding',
-            'No preference',
-        ],
-    },
-    {
         question: 'What size of dog would you prefer?',
         options: [
-            'Tiny',
             'Small',
             'Medium',
             'Large',
-            'X-Large',
+            'Giant',
             'No Preference'
         ],
     },
@@ -73,7 +53,7 @@ const dogQuestions = [
         options: [
             'Independent and self-willed',
             'Both independent and affectionate',
-            'Lives and please',
+            'Lives to please',
             'No Preference',
         ],
     },
