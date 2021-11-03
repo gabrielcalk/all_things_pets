@@ -65,6 +65,10 @@ app.use('/pets-for-you', petsRouter);
 const infoRouter = require('./controllers/info');
 app.use('/info', infoRouter);
 
+// Name Router : /name
+const nameRouter = require('./controllers/name');
+app.use('/name', nameRouter)
+
 // Info Router: /infoDogs
 const infoDogsRouter = require('./routes/api/infoDogs');
 app.use('/infoDogs', infoDogsRouter);
