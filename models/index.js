@@ -4,6 +4,7 @@ const Cats = require("./Cats");
 const Dogs = require("./Dogs");
 const dognames = require("./dognames")
 const catnames = require("./catnames")
+const dogfacts = require("./dogfacts")
 // User.hasMany(Post, {
 //     foreignKey: "userId",
 //     onDelete: "CASCADE"
