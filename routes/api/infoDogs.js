@@ -1,5 +1,5 @@
 const infoDogsRouter = require('express').Router();
-const Dogs = require('../models');
+const Dogs = require('../../models');
 
 infoDogsRouter.get('/', async (req, res) => {
     try{
@@ -12,9 +12,6 @@ infoDogsRouter.get('/', async (req, res) => {
     }
 });
 
-<<<<<<< HEAD
-module.exports = infoDogsRouter
-=======
 infoDogsRouter.post('/', async (req, res) => {
   try {
     const dogs_data = await dogs.create(req.body);
@@ -25,4 +22,3 @@ infoDogsRouter.post('/', async (req, res) => {
 });
 
 module.exports = infoDogsRouter;
->>>>>>> d228c29e52dbbb066be03ddbf08c07deb6ab9969

@@ -1,3 +1,5 @@
+const express = require('express');
+const router = express.Router();
 const Cats = require("./Cats");
 const Dogs = require("./Dogs");
 

@@ -64,7 +64,7 @@ const infoRouter = require('./controllers/info');
 app.use('/info', infoRouter);
 
 // Info Router: /infoDogs
-const infoDogsRouter = require('./controllers/infoDogs');
+const infoDogsRouter = require('./routes/api/infoDogs');
 app.use('/infoDogs', infoDogsRouter);
 
 // 404 page
