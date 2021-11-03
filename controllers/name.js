@@ -4,4 +4,6 @@ nameRouter.get('/', (req, res) =>{
     res.render('name')
 })
 
+
+
 module.exports = nameRouter;

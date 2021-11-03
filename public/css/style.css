@@ -41,6 +41,12 @@ h3{
 }
 
 /* CSS for the home page */
+a{
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: 700;
+}
+
 a:hover{
     color: var(--color1);
 }
@@ -71,6 +77,22 @@ button:hover{
 #dogs_and_cats{
     margin-top: 20px;
     width: 90%;
+}
+
+#login{
+    background-color: #c8a56f;
+}
+
+#login:hover{
+    background-color: var(--color1);
+}
+
+#login_h3{
+    font-weight: 700;
+}
+
+#login_h3:hover{
+    color: var(--color2);
 }
 
 @media only screen and (max-width: 650px) {

@@ -18,8 +18,9 @@ dogfacts.init(
     },
 
     {
-    sequelize,
-    modelName: "dogfacts",
+        sequelize,
+        modelName: "dogfacts",
+        timestamps: false,
     }
     );
     module.exports = dogfacts;

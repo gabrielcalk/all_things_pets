@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connections");
 // sequelize catnames model
-class catnames extends Model {}
+class Catnames extends Model {}
 
-catnames.init(
+Catnames.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -15,11 +15,17 @@ catnames.init(
             type: DataTypes.STRING,
             allowNull: false
         },
+        type: {
+            type: DataTypes.STRING,
+            allowNull: false
+        },
     },
 
     {
-    sequelize,
-    modelName: "catnames",
+        sequelize,
+        modelName: "catnames",
+        timestamps: false,
     }
     );
-    module.exports = catnames;
+    
+module.exports = Catnames;
