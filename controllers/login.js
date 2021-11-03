@@ -34,7 +34,6 @@ loginRouter.post('/', async (req, res) =>{
         req.session.save(() =>{
             req.session.user_id = email_info.id;
             req.session.logged_in = true;
-            req.session.post_id = '0'
             res.status(200).json({message: 'You Are Logged In!'});
         })
     } catch(err){

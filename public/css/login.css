@@ -38,7 +38,7 @@ h2{
 }
 
 h3{
-    font-size: 1.4vw;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -103,6 +103,10 @@ button:hover{
     h1{
         font-size: 5vw;
         margin-top: 10px;
+    }
+
+    h3{
+        font-size: 18px;
     }
     .logo{
         width: 8vw;

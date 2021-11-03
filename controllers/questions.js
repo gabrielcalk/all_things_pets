@@ -5,7 +5,19 @@ const questionsRouter = require('express').Router()
  * rendering the /questions page
  */
 questionsRouter.get('/', (req, res) =>{
+    if(!req.session.logged_in){
+        res.redirect('/login')
+        return
+    }
     res.render('questions')
+})
+
+questionsRouter.get('/pets-for-you', (req, res) =>{
+    if(!req.session.logged_in){
+        res.redirect('/login')
+        return
+    }
+    res.send('pets-for-you')
 })
 
 /**
