@@ -1,4 +1,6 @@
-[
+const Dogs = require('../models/Dogs')
+
+const dogBreeds =[
         {
             "breedName": "  affenpinscher",
             "image": "  https://cdn1-www.dogtime.com/assets/uploads/2011/01/file_23096_affenpinscher-300x189.jpg",
@@ -4520,3 +4522,7 @@
             "size": "small"
         }
     ]
+
+    const seeddogBreeds = () => Dogs.bulkCreate(dogBreeds);
+
+module.exports = seeddogBreeds;
