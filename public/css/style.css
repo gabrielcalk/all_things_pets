@@ -32,7 +32,7 @@ h2{
 }
 
 h3{
-    font-size: 1.9;
+    font-size: 1.9vw;
 }
 
 .logo{
@@ -265,8 +265,7 @@ button:hover{
     }
     
     .button_home{
-        font-size: 13px;
-        width: 110px;
+        font-size: 12px;
         height: 60px;
         margin-top: -25px;
     }
@@ -274,7 +273,6 @@ button:hover{
     .box_option{
         margin-top: 50px;
         height: 220px;
-        width: 300px;
     }
 
     #dogs_and_cats{
