@@ -1,9 +1,21 @@
 <main style="border-top: 4px solid #c8a56f">
+    <section class="d-flex justify-content-center mt-4">
+        <a href="/name/add_name"><button>Add One Name</button></a>
+    </section>
     <section class="d-flex justify-content-center flex-nowrap">
         <section class="button_section flex-nowrap">
             <div id="buttons" class="my-4 flex-nowrap"></div>
         </section>
     </section>
-    <section class="text-center" id="names_pets"></section>
+    <section id="names_section" class="d-flex justify-content-evenly">
+        <section>
+            <h3 class="pets_name_find p-2">Dogs:</h3>
+            <section id="names_dogs"></section>
+        </section>
+        <section>
+            <h3 class="pets_name_find p-2">Cats:</h3>
+            <section id="names_cats"></section>
+        </section>
+    </section>
 </main>
 <script src="/js/name.js"></script>
