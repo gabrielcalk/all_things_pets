@@ -20,6 +20,21 @@ questionsRouter.get('/pets-for-you', (req, res) =>{
     res.send('pets-for-you')
 })
 
+questionsRouter.get('/cat', (req, res) =>{
+    if(!req.session.logged_in){
+        res.redirect('/login')
+        return
+    }
+    res.render('questions_cat')
+})
+
+questionsRouter.get('/dog', (req, res) =>{
+    if(!req.session.logged_in){
+        res.redirect('/login')
+        return
+    }
+    res.render('questions_dog')
+})
 /**
  * @exports questionsRouter (Will be /questions)
  */
