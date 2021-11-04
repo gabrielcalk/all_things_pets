@@ -33,6 +33,11 @@ h2{
 
 h3{
     font-size: 1.9vw;
+    font-weight: 700;
+}
+
+h4{
+    font-weight: 700;
 }
 
 .logo{
@@ -120,6 +125,15 @@ button:hover{
 .letter-button {
     margin: 0.25rem;
     font-size: 1.25rem;
+}
+
+#names_section{
+    margin: 0 auto;
+}
+
+.pets_name_find:hover{
+    background-color: var(--color2);
+    border-radius: 15px;
 }
 
 @media only screen and (max-width: 1815px) {
