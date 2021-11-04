@@ -1,0 +1,29 @@
+<main style="border-top: 4px solid #c8a56f">
+    <section id="box_name_create" class="w-50 mt-4">
+        <div id="add_name_div" class="d-flex justify-content-between align-items-center">
+            <h2 class="px-3 pt-1">Create A New Name</h2>
+        </div>
+        <div class="m-2">
+            <label for="name">Name:</label>
+            <br>
+            <input placeholder="pet's name" class="w-100" id="name_pet_input" type="text" name="name" value="">
+            <br>
+        </div>
+        <div class="m-2 mt-3 d-flex justify-content-center">
+            <label class="m-2" for="gender">Gender:</label>
+            <select id="gender" class="m-1" name="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select>
+            <label class="m-2" for="type">Cat Or Dog?</label>
+            <select id="type" class="m-1" name="type">
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+            </select>
+        </div>
+        <section class="d-flex justify-content-center">
+                <button id="create_post" class="p-2 px-3 my-3 rounded">Create</button>
+        </section>
+    </section>
+</main>
+<script src="/js/create_name.js"></script>
