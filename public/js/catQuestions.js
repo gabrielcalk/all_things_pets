@@ -1,89 +1,46 @@
-const catQuestions = [
-    {
-        question: 'Do you need a hypo-allergenic breed?',
-        options: [
-            'Yes',
-            'No'
-        ],
-        answer: []
-    },
+// First Question
+const yes_allergenic = document.querySelector('#yes_allergenic');
+const no_allergenic = document.querySelector('#no_allergenic');
+const no_pref_allergenic = document.querySelector('#no_pref_allergenic');
 
-    {
-        question: 'How much time can you spend grooming?',
-        options: [
-            'Minimal/Once per Month', 
-            'Once per Week'
-        ],
-        answer: []
-    },
+// Second Question
+const minimal = document.querySelector('#minimal');
+const once_per_week = document.querySelector('#once_per_week');
 
-    {
-        question: 'Will your animal be around children?',
-        options: [
-            'Yes',
-            'No'
-        ],
-        answer: []
-    },
+// Third Question
+const yes_children = document.querySelector('#yes_children');
+const no_children = document.querySelector('#no_children');
 
-    {
-        question: 'Will your ca be Outdoor or Indoor?',
-        options: [
-            'Outdoor', 
-            'Indoor'
-        ],
-        answer: []
-    },
+// Forth Question
+const outdoor = document.querySelector('#outdoor');
+const indoor = document.querySelector('#indoor');
 
-    {
-        question: 'How much energy are you expecting your cat to have?',
-        options: [
-            'Very Energetic', 
-            'Docile'
-        ],
-        answer: []
-    },
+// Fifth Question
+const very_energetic = document.querySelector('#very_energetic');
+const docile = document.querySelector('#docile');
 
-    {
-        question: 'Do you want a cat that craves affection?',
-        options: [
-            'Yes',
-            'No'
-        ],
-        answer: []
-    },
+// Sixth Question
+const yes_affection = document.querySelector('#yes_affection');
+const no_affection = document.querySelector('#no_affection');
+const no_pref_affection = document.querySelector('#no_pref_affection');
 
-    {
-        question: 'Do you need a cat that can be left alone for extended periods of time?',
-        options: [
-            'Yes',
-            'No'
-        ],
-        answer: []
-    },
+// Seventh Question
+const yes_alone = document.querySelector('#yes_alone')
+const no_alone = document.querySelector('#no_alone')
+const no_pref_alone = document.querySelector('#no_pref_alone');
 
-    {
-        question: 'What color do you prefer your cat to be?',
-        options: [
-            'Black', 
-            'White', 
-            'Blue/Gray', 
-            'Ginger/Red', 
-            'Tortishell', 
-            'Brown',
-            'Tabby',
-            'No Preference'
-        ],
-        answer: []
-    },
+// Eighth Question
+const black_color = document.querySelector('#black_color');
+const white_color = document.querySelector('#white_color');
+const blue_color = document.querySelector('#blue_color');
+const red_color = document.querySelector('#red_color');
+const tortishell_color = document.querySelector('#tortishell_color');
+const brown_color = document.querySelector('#brown_color');
+const tabby_color = document.querySelector('#tabby_color');
 
-    {
-        question: 'Do you currently have a veterinarian?',
-        options: [
-            'Yes',
-            'No, but I will find my own',
-            'No, but I would like some recommendations'
-        ]
-    }
-    
-];
+// Ninth Question
+const yes_vet = document.querySelector('#yes_vet');
+const no_vet = document.querySelector('#no_vet');
+const no_recommentadions_vet = document.querySelector('#no_recommentadions_vet');
+
+
