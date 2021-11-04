@@ -1,4 +1,4 @@
-const CatNames = require('../models/catnames')
+const CatsNames = require('../models/catnames')
 
 const maleNames = [
     {
