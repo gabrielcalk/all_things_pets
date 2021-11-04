@@ -1,7 +1,7 @@
 const buttonListEl = document.querySelector('#buttons');
 const names_dogs = document.querySelector('#names_dogs');
 const names_cats = document.querySelector('#names_cats');
-
+const button_ad_name = document.querySelector('#button_ad_name');
 
 function renderLetters() {
     const letters = [
@@ -33,7 +33,7 @@ function renderLetters() {
       'Z',
     ];
 
- // Dynamically create buttons
+  // Dynamically create buttons
   // Create a for-loop to iterate through the letters array.
   for (var i = 0; i < letters.length; i++) {
     // Create button
@@ -124,7 +124,6 @@ function removeAllChildNodes(parent) {
       parent.removeChild(parent.firstChild);
   }
 }
-const container = document.querySelector('#container');
 
 renderLetters()
   
