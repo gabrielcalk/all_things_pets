@@ -13,7 +13,7 @@ nameRouter.get('/', async(req, res) =>{
     }
 })
 
-nameRouter.get('/', async(req, res) =>{
+nameRouter.get('/api', async(req, res) =>{
     try{
         const dogs = await DogNames.findAll({})
         const dogs_data = dogs.map((dog) => dog.get({plain: true}))

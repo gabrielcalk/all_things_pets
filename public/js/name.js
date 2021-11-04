@@ -1,4 +1,5 @@
-const buttonListEl = document.querySelector('#buttons')
+const buttonListEl = document.querySelector('#buttons');
+const names_pets = document.querySelector('#names_pets')
 
 function renderLetters() {
     const letters = [
@@ -47,13 +48,44 @@ function renderLetters() {
 };
 
 // Delegate event listener to the parent element, <div id="buttons">
-buttonListEl.addEventListener('click', async function (event) {
+buttonListEl.addEventListener('click', function (event) {
+  removeAllChildNodes(names_pets);
+
     const letter = event.target.getAttribute('data-letter')
 
-    const names = await fetch('/api/names');
-    let data = await names.json()
-    console.log(data)
+    const names = fetch('/name/api', {
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    })
+    .then((response) => response.json())
+    .then((names) => {
+        for (j = 0; j < names.length; j++){
+          if (names[j].name.charAt(0) == letter){
+            const div = document.createElement('div');
+            const h4 = document.createElement('h4');
+            h4.textContent = names[j].name;
+            div.append(h4);
+            names_pets.append(div);
+          }
+        }
+        if (!names_pets.hasChildNodes()){
+          const div = document.createElement('div');
+          const h4 = document.createElement('h4');
+          h4.textContent = 'We Could Not Find Names With This Letter...';
+          div.append(h4);
+          names_pets.append(div);
+        }
+    })
 });
+
+function removeAllChildNodes(parent) {
+  while (parent.firstChild) {
+      parent.removeChild(parent.firstChild);
+  }
+}
+const container = document.querySelector('#container');
 
 renderLetters()
   
