@@ -1,4 +1,4 @@
-[
+const catData = [
     {
       "breed": "Abyssinian",
       "specifics": {

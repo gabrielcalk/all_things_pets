@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connections");
 // sequelize Dogs model
-class dognames extends Model {}
+class DogNames extends Model {}
 
-dognames.init(
+DogNames.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -11,19 +11,20 @@ dognames.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        male: {
+        name: {
             type: DataTypes.STRING,
             allowNull: false
         },
-        female: {
+        type: {
             type: DataTypes.STRING,
             allowNull: false
         },
     },
 
     {
-    sequelize,
-    modelName: "dognames",
+        sequelize,
+        modelName: "dognames",
+        timestamps: false,
     }
     );
-    module.exports = dognames;
+    module.exports = DogNames;

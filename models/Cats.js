@@ -35,8 +35,9 @@ Cats.init(
     },
 
 {
-sequelize,
-modelName: "cats",
+    sequelize,
+    modelName: "cats",
+    timestamps: false,
 }
 );
 

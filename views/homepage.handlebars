@@ -1,4 +1,10 @@
 <body style="height:100%; width:100%;">
+    <div class="d-flex justify-content-between">
+        {{#if logout}}
+         <a id="logout"><h3 class="p-2 login_h3">Logout</h3></a>
+        {{/if}}
+        <a id="login" href="/login"><h3 class="p-2 login_h3">Login</h3></a>
+    </div>
     <main class="d-flex justify-content-center flex-wrap">
         <section class="p-3 box_option">
             <h2 class="text-center mt-4">Click In One Option Below</h2>
@@ -12,5 +18,6 @@
     <section class="d-flex justify-content-center">
         <img id="dogs_and_cats" src="/images/background_home.png" alt="Dogs And Cats">
     </section>
+    <script src="/js/home.js"></script>
 </body>
 

@@ -1,13 +1,15 @@
 const path = require("path");
 const express = require("express");
-const session = require("express-session");
 const exphbs = require("express-handlebars");
 // const helpers = require("./utils/helpers");
 const Cats = require("./models/Cats");
 const Dogs = require("./models/Dogs");
-const dognames = require("./models/dognames");
-const catnames = require("./models/catnames");
+const Dognames = require("./models/dognames");
+const Catnames = require("./models/catnames");
+const User = require('./models/user')
 const sequelize = require("./config/connections");
+
+const session = require("express-session");
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
 const app = express();
@@ -16,7 +18,7 @@ const PORT = process.env.PORT || 3001;
 // const hbs = exphbs.create({ helpers });
 
 const sess = {
-    secret: process.env.SESS_SECRET,
+    secret: 'Secret Secret',
     cookie:{},
     resave: false,
     saveUninitialized: true,
@@ -24,14 +26,9 @@ const sess = {
         db: sequelize
     })
 };
-// app.use(session(sess));
-try {
-    sequelize.authenticate();
-    console.log('Connection has been established successfully.');
-  } catch (error) {
-    console.error('Unable to connect to the database:', error);
-  }
-  
+
+app.use(session(sess));
+
 // app.engine("handlebars", hbs.engine);
 app.engine("handlebars", exphbs())
 app.set("view engine", "handlebars");
@@ -56,10 +53,6 @@ app.use('/login', loginRouter);
 // Questions Router: /questions
 const questionsRouter = require('./controllers/questions');
 app.use('/questions', questionsRouter);
-
-// Pets Router: /pets-for-you
-const petsRouter = require('./controllers/pets-for-you');
-app.use('/pets-for-you', petsRouter);
 
 // Info Router: /info
 const infoRouter = require('./controllers/info');

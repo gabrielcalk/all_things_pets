@@ -16,10 +16,10 @@ dogfacts.init(
             allowNull: false
         },
     },
-
     {
-    sequelize,
-    modelName: "dogfacts",
+        sequelize,
+        modelName: "dogfacts",
+        timestamps: false,
     }
     );
     module.exports = dogfacts;
