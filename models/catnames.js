@@ -11,11 +11,11 @@ Catnames.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        names: {
+        name: {
             type: DataTypes.STRING,
             allowNull: false
         },
-        type: {
+        gender: {
             type: DataTypes.STRING,
             allowNull: false
         },
