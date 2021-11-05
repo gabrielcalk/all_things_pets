@@ -50,7 +50,8 @@ questionsRouter.get('/dog', (req, res) =>{
         res.redirect('/login')
         return
     }
-    res.render('questions_dog')
+    res.render('questions_dog', {
+        layout:false})
 });
 /**
  * @exports questionsRouter (Will be /questions)
