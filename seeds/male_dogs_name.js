@@ -3,403 +3,403 @@ const DogsNames = require('../models/dognames')
 const maleNames = [
     {
         name: "Max",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Buddy",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Charlie",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Jack",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Cooper",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Rocky",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Toby",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Tucker",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Jake",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Bear",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Duke",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Teddy",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Oliver",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Riley",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Bailey",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Bentley",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Milo",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Buster",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Cody",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Dexter",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Winston",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Murphy",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Leo",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Lucky",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Oscar",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Louie",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Zeus",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Henry",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Sam",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Harley",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Baxter",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Gus",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Sammy",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Jackson",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Bruno",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Diesel",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Jax",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Gizmo",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Bandit",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Rusty",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Marley",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Jasper",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Brody",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Roscoe",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Hank",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Otis",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Bo",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Joey",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Beau",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Ollie",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Tank",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Shadow",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Peanut",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Hunter",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Scout",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Blue",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Rocco",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Simba",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Tyson",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Ziggy",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Boomer",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Romeo",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Apollo",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Ace",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Luke",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Rex",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Finn",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Chance",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Rudy",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Loki",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Moose",
-        type: "male"
+        type: "Male"
     },
     {
         name: "George",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Samson",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Coco",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Benny",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Thor",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Rufus",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Prince",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Chester",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Brutus",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Scooter",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Chico",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Spike",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Gunner",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Sparky",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Mickey",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Kobe",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Chase",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Oreo",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Frankie",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Mac",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Benji",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Bubba",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Champ",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Brady",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Elvis",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Copper",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Cash",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Archie",
-        type: "male"
+        type: "Male"
     },
     {
         name: "Walter",
-        type: "male"
+        type: "Male"
     }
 ]
 

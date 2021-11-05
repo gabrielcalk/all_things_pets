@@ -3,6 +3,10 @@ const names_dogs = document.querySelector('#names_dogs');
 const names_cats = document.querySelector('#names_cats');
 const button_ad_name = document.querySelector('#button_ad_name');
 
+// Gender
+const female = document.querySelector('#female')
+const male = document.querySelector('#male')
+
 function renderLetters() {
     const letters = [
       'A',
@@ -124,6 +128,87 @@ function removeAllChildNodes(parent) {
       parent.removeChild(parent.firstChild);
   }
 }
+
+// Finding Female Gender
+const findFemale = async () =>{
+  removeAllChildNodes(names_dogs);
+  removeAllChildNodes(names_cats)
+
+  const res = await fetch('/name/api/find-female', {
+    headers:{
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    }
+  })
+  .then((response) => response.json())
+  .then((female) => {
+    for (j = 0; j < female.cats.length; j++){
+      let div = document.createElement('div');
+      let h4 = document.createElement('h4');
+      let p = document.createElement('p');
+      div.classList.add('mb-4');
+      h4.textContent = female.cats[j].name;
+      p.textContent = female.cats[j].gender;
+      div.append(h4);
+      div.append(p);
+      names_cats.append(div);
+  };
+
+  for (j = 0; j < female.dogs.length; j++){
+    let div = document.createElement('div');
+    let h4 = document.createElement('h4');
+    let p = document.createElement('p');
+    div.classList.add('mb-4');
+    h4.textContent = female.dogs[j].name;
+    p.textContent = female.dogs[j].type;
+    div.append(h4);
+    div.append(p);
+    names_dogs.append(div);
+  };
+  })
+}
+
+// Finding MaleGender
+const findMale = async () =>{
+  removeAllChildNodes(names_dogs);
+  removeAllChildNodes(names_cats)
+  
+  const res = await fetch('/name/api/find-male', {
+    headers:{
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    }
+  })
+  .then((response) => response.json())
+  .then((male) => {
+    for (j = 0; j < male.cats.length; j++){
+        let div = document.createElement('div');
+        let h4 = document.createElement('h4');
+        let p = document.createElement('p');
+        div.classList.add('mb-4');
+        h4.textContent = male.cats[j].name;
+        p.textContent = male.cats[j].gender;
+        div.append(h4);
+        div.append(p);
+        names_cats.append(div);
+    };
+
+    for (j = 0; j < male.dogs.length; j++){
+      let div = document.createElement('div');
+      let h4 = document.createElement('h4');
+      let p = document.createElement('p');
+      div.classList.add('mb-4');
+      h4.textContent = male.dogs[j].name;
+      p.textContent = male.dogs[j].type;
+      div.append(h4);
+      div.append(p);
+      names_dogs.append(div);
+  };
+  })
+}
+
+female.addEventListener('click', findFemale);
+male.addEventListener('click', findMale);
 
 renderLetters()
   
