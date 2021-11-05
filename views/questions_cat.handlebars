@@ -1,4 +1,4 @@
-<main style="border-top: 4px solid #c8a56f">
+<main id="main_questions" style="border-top: 4px solid #c8a56f">
 
 {{!-- First Questions: Hypo-Allergenic --}}
     <section class="container mt-5">
@@ -12,8 +12,6 @@
                 <label class="h5" for="Yes"> Yes</label><br>
                 <input type="radio" id="no_allergenic" name="inlineRadioOptions" value="No">
                 <label class="h5" for="No"> No</label><br>
-                <input type="radio" id="no_pref_allergenic" name="inlineRadioOptions" value="No_Preferences" checked>
-                <label class="h5" for="No_pref"> No Preferences</label><br>
             </form>
         </section>
     </section>
@@ -95,8 +93,6 @@
                     <label class="h5" for="yes_affection"> Yes</label><br>
                     <input type="radio" id="no_affection" name="inlineRadioOptions" value="no">
                     <label class="h5" for="no_affection"> No</label><br>
-                    <input type="radio" id="no_pref_affection" name="inlineRadioOptions" value="no_pref_affection" checked>
-                    <label class="h5" for="no_pref_affection"> No Preferences</label><br>
                 </form>
             </section>
         </section>
@@ -113,13 +109,11 @@
                 <label class="h5" for="yes_alone"> Yes</label><br>
                 <input type="radio" id="no_alone" name="inlineRadioOptions" value="no">
                 <label class="h5" for="no_alone"> No</label><br>
-                <input type="radio" id="no_pref_alone" name="inlineRadioOptions" value="no_pref_alone" checked>
-                <label class="h5" for="no_pref_alone"> No Preferences</label><br>
             </form>
         </section>
     </section>
 
-{{!-- Eighth Questions: What color do you prefer your cat to be? --}}
+{{!-- Eighth Questions: What color do you prefer your cat to be?
     <section class="container mt-5">
         <section>
             <h3>What color do you prefer your cat to be?</h3>
@@ -149,7 +143,7 @@
                 <label class="h5" for="tabby_color"> Tabby</label><br>
             </form>
         </section>
-    </section>
+    </section> --}}
 
 {{!-- ninth Questions: Do you need a cat that can be left alone for extended periods of time? --}}
     <section class="container mt-5">
@@ -169,7 +163,7 @@
         </section>
     </section>
 </main>
-    <footer style="border-top: 4px solid #c8a56f" class="section_button_find text-center mt-5 py-5">
-        <button class="p-2">Find One Cat!!!</button>
+    <footer id="footer_questions" style="border-top: 4px solid #c8a56f" class="section_button_find text-center mt-5 py-5">
+        <button id="find_cat" class="p-2">Find One Cat!!!</button>
     </footer>
 <script src="/js/catQuestions.js"></script>

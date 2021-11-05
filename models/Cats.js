@@ -14,24 +14,35 @@ Cats.init(
         breed: {
             type: DataTypes.STRING,
         },
-        hair: {
+        hypo_allergenic: {
+            type: DataTypes.STRING,
+        },
+        grooming_frequency: {
+            type: DataTypes.STRING,
+        },
+        like_children: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        outdoor_indoor: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        energy_level: {
+            type: DataTypes.STRING,
+        },
+        affectionate: {
+            type: DataTypes.STRING,
+        },
+        independence: {
+            type: DataTypes.STRING,
+        },
+        images: {
+            type: DataTypes.STRING,
+        },
+        description: {
             type: DataTypes.TEXT,
-        },
-        size: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-        },
-        height: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-        },
-        talkative: {
-            type: DataTypes.BOOLEAN,
-
-        },
-        hypoallergenic: {
-            type: DataTypes.BOOLEAN,
-        } 
+        }, 
     },
 
 {
