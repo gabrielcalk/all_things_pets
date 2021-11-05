@@ -86,6 +86,48 @@ nameRouter.get('/api/cats', async(req, res) =>{
     }
 });
 
+nameRouter.get('/api/find-male', async(req, res) =>{
+    try{
+        const cats_male = await Catnames.findAll({
+            where:{
+                gender: 'Male'
+            }
+        })
+        const dogs_male = await DogNames.findAll({
+            where:{
+                type: 'Male'
+            }
+        })
+        const cats_male_data = cats_male.map((cat) => cat.get({plain: true}))
+        const dogs_male_data = dogs_male.map((dog) => dog.get({plain: true}))
+
+        res.status(200).json({dogs: dogs_male_data, cats: cats_male_data})
+    }catch(err){
+        res.status(500).json(err)
+    }
+});
+
+nameRouter.get('/api/find-female', async(req, res) =>{
+    try{
+        const cats_female = await Catnames.findAll({
+            where:{
+                gender: 'Female'
+            }
+        })
+        const dogs_female = await DogNames.findAll({
+            where:{
+                type: 'Female'
+            }
+        })
+        const cats_female_data = cats_female.map((cat) => cat.get({plain: true}))
+        const dogs_female_data = dogs_female.map((dog) => dog.get({plain: true}))
+
+        res.status(200).json({dogs: dogs_female_data, cats: cats_female_data})
+    }catch(err){
+        res.status(500).json(err)
+    }
+});
+
 /**
  * @exports nameRouter (Will be /name)
  */
