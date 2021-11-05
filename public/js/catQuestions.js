@@ -106,8 +106,6 @@ const get_inputs = async () =>{
         footer_questions.classList.add('hide');
         section_cats_for_you.classList.remove('hide')
 
-        console.log(cats)
-        console.log(cats[0].energy_level)
         for(i = 0; i < cats.length; i++){
             if( cats[i].hypo_allergenic == inputs_picked[0] && 
                 cats[i].grooming_frequency == inputs_picked[1] &&
