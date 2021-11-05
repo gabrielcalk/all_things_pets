@@ -4523,6 +4523,6 @@ const dogBreeds =[
         }
     ]
 
-    const seeddogBreeds = () => Dogs.bulkCreate(dog);
+    const seeddogBreeds = () => Dogs.bulkCreate(dogBreeds);
 
 module.exports = seeddogBreeds;
