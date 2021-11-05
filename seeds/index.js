@@ -5,6 +5,7 @@ const seedFemaleCats = require('./female_cat_names');
 const seedMaleCats = require('./male_cat_names');
 const seedDogBreeds = require('./dogbreeds');
 const seedCatBreeds = require('./catbreeds')
+const seedPark = require('./locations');
 
 const seedAll = async () => {
   await sequelize.sync({ force: true });
@@ -20,6 +21,8 @@ const seedAll = async () => {
   await seedDogBreeds();
 
   await seedCatBreeds();
+
+  await seedPark();
 
   process.exit(0);
 };
