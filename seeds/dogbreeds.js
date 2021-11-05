@@ -4,7 +4,7 @@ const dogBreeds =[
         {
             "breedName": "  affenpinscher",
             "image": "  https://cdn1-www.dogtime.com/assets/uploads/2011/01/file_23096_affenpinscher-300x189.jpg",
-            "description": "  Canines in the Affenpinscher dog breed were originally created to be ratters in homes stables and shops. Bred down in size they moved up in the world becoming ladiesâ€™ companions. Today they are happy mischievous companion dogs.",
+            "description": "  Canines in the Affenpinscher dog breed were originally created to be ratters in homes stables and shops. Bred down in size they moved up in the world becoming ladies' companions. Today they are happy mischievous companion dogs.",
             "height": " 9 to 11 inches",
             "weight": "  7 to 9 pounds",
             "life": "  12 to 14 years",
@@ -488,7 +488,7 @@ const dogBreeds =[
             "height": "  16 to 17 inches",
             "weight": "  22 to 24 pounds",
             "life": "  13 to 14 years",
-            "breedGroup": "  hound dogs",
+            "breedGroup": "hound dogs",
             "children": "3",
             "otherDogs": "3",
             "grooming": "3",
