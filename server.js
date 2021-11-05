@@ -3,10 +3,11 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 // const helpers = require("./utils/helpers");
 const Cats = require("./models/Cats");
-const Dogs = require("./models/Dogs");
+const Dogs = require("./models/dogs");
 const Dognames = require("./models/dognames");
 const Catnames = require("./models/catnames");
-const User = require('./models/user')
+const User = require('./models/user');
+const locations = require('./models/locations');
 const sequelize = require("./config/connections");
 
 const session = require("express-session");

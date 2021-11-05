@@ -131,7 +131,7 @@ button:hover{
     margin: 0 auto;
 }
 
-.pets_name_find:hover{
+.pets_name_find{
     background-color: var(--color2);
     border-radius: 15px;
 }
@@ -152,6 +152,10 @@ button:hover{
 .section_questions{
     background-color: var(--color1);
     color: var(--color3);
+}
+
+.hide{
+    display: none;
 }
 
 @media only screen and (max-width: 1815px) {

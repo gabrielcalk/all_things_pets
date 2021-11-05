@@ -1,3 +1,231 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Things Pets</title>
+    <link rel="icon" type="image/png" href="images/logo_dog.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/cat.css">
+</head>
+<body>
+  <header class="p-1 d-flex align-items-center justify-content-between">
+    <a href="/"><img class="logo" src="/images/logo_dog.png"></a>
+    <h1>All Things Pets</h1>
+    <a href="/"><img class="logo" src="/images/logo_cat.png"></a>
+  </header>
 <main style="border-top: 4px solid #c8a56f">
-Dogs
-</main>
+    <section class="d-flex justify-content-center my-4">
+        <h2>Let us help find the right dog for you!<br>
+        Please select from the choices below</h2>
+    </section>
+<section class="container mt-5">
+    {{!-- First Questions: breed-group --}}
+    <section>
+        <h3> What breed group are you interested in?</h3>
+    </section>
+    <div class="w-100"></div>
+        <section class="row">
+               <form>
+                <input type="radio" id="sporting-dogs" name="sporting" value="yes">
+                <label class="h5" for="breedGroup"><b>Sporting Group</b>
+                <em>Naturally active and alert, Sporting dogs make likeable, well-rounded companions.</em></label><br>
+                <input type="radio" id="hound_dogs" name="hound" value="yes">
+                <label class="h5" for="breedGroup"><b>Hound Group</b> <em>Most hounds share the common ancestral trait of being used for hunting.</em></label><br>
+                <input type="radio" id="working_dogs" name="working" value="working dogs">
+                <label class="h5" for="breedGroup"><b>Working Group</b> <em>Quick to learn, dogs of the Working Group are intelligent, strong, watchful, and alert.</em></label><br>
+                <input type="radio" id="terrier_dogs" name="terrier" value="terrier dogs">
+                <label class="h5" for="breedGroup"><b>Terrier Group</b> <em>Feisty and energetic are two of the primary traits that come to mind for those who have experience with Terriers.</em></label><br>
+                <input type="radio" id="companion_group" name="toy" value="toy dogs">
+                <label class="h5" for="breedGroup"><b>Companion Group</b> <em>Also known as Toy dogs. The diminutive size and winsome expressions of Toy dogs illustrate the main function of this Group: to embody sheer delight.</em></label><br>
+                <input type="radio" id="herding_group" name="herding" value="herding dogs">
+                <label class="h5" for="breedGroup"><b>Herding Group</b> <em>These breeds were developed to gather, herd and protect livestock.</em></label><br>
+                <input type="radio" id="mixed_group" name="mixed" value="mixed breed dogs">
+                <label class="h5" for="breedGroup"><b>Mixed Breed Group</b> <em>Mixed breeds can be divided into cross-breeds, which are the product of two pure breeds. Their trates are inherited from their parents.</em></label><br>
+            </form>
+        </section>
+        {{!-- Second Questions: Dog Size --}}
+     <section>
+        <h3>What size of dog would you prefer?</h3>
+    </section>
+    <div class="w-100"></div>
+        <section class="row">
+               <form>
+                <input type="radio" id="xsmall" name="xsmall_bow_wow" value="xsmall">
+                <label class="h5" for="size"><b>Extra Small Breed </b><em>Up to 15 pounds</em></label><br>
+                <input type="radio" id="small" name="small_bow_wow" value="small">
+                <label class="h5" for="size"><b>Small Breed </b> <em>15 to 30 pounds</em></label><br>
+                <input type="radio" id="medium" name="medium_bow_wow" value="medium">
+                <label class="h5" for="size"><b>Medium Breed </b><em>30 to 45 pounds</em></label><br>
+                <input type="radio" id="large" name="large_bow_wow" value="large">
+                <label class="h5" for="size"><b>Large Breed </b><em>45 to 70 pounds</em></label><br>
+                <input type="radio" id="xlarge" name="xlarge_bow_wow" value="xlarge">
+                <label class="h5" for="size"><b>Extra Large Breed </b><em>70 to 100 pounds</em></label><br>
+                <input type="radio" id="giant" name="giant" value="giant">
+                <label class="h5" for="size"><b>Giant Breed </b><em>Above a 100 pounds</em></label><br>
+                </form>
+        </section>
+        {{!-- third Question: Energy --}}
+    <section>
+        <h3>How active would you like your dog?</h3>
+    </section>
+    <div class="w-100"></div>
+        <section class="row">
+               <form>
+                <input type="radio" id="potato" name="couch_potato" value="1">
+                <label class="h5" for="energy"><b>Very Low Energy </b><em>Couch Potato... Moving is for pottying and eating.</em></label><br>
+                <input type="radio" id="lazy" name="lazy" value="2">
+                <label class="h5" for="energy"><b>Low Energy </b><em>I don't want to walk but I will...</em></label><br>
+                <input type="radio" id="moderate" name="stay_or_go" value="3">
+                <label class="h5" for="energy"><b>Moderate Energy </b><em>I could move or I could sleep.</em></label><br>
+                <input type="radio" id="active" name="giant" value="4">
+                <label class="h5" for="energy"><b>Energetic </b><em>Yes Lets Play! I need exercise!</em></label><br>
+                <input type="radio" id="very_active" name="toy" value="5">
+                <label class="h5" for="energy"><b>High Energy </b><em>Play!? Yes Lets Play!... OMG YES!!! WHERE'S THE BALL!?!</em></label><br>
+            </form>
+        </section>
+        {{!-- Fourth Questions: Children --}}
+        <section>
+        <h3>Will your dog be around children?</h3>
+        </section>
+        <div class="w-100"></div>
+        <section class="row">
+               <form>
+                <input type="radio" id="never_children" name="no_kids" value="1">
+                <label class="h5" for="children"><b>Dog is not good with Kids </b><em>KIDS??? No! Who needs kids when you have a dog! Stay Away Trick or Treaters!</em></label><br>
+                <input type="radio" id="rarely_children" name="lazy" value="2">
+                <label class="h5" for="children"><b>Dog needs supervision with Kids </b><em>I rarely have kids around.</em></label><br>
+                <input type="radio" id="sometimes-kids" name="stay_or_go" value="3">
+                <label class="h5" for="children"><b>Dog tolerates kids </b><em>WOOF! I like kids as long as they are nice to me!</em></label><br>
+                <input type="radio" id="likes-kids" name="giant" value="4">
+                <label class="h5" for="children"><b>Dog likes kids </b><em>WOOF I like kids they drop food on the ground!</em></label><br>
+                <input type="radio" id="loves_kids" name="toy" value="5">
+                <label class="h5" for="children"><b>Dog loves kids </b><em>WOOF WOOF!!! Love kids they play all day!</em></label><br>
+            </form>
+        </section>
+        {{!-- Fifth Question: protective  --}}
+   <section>
+        <h3>Do you want a protective dog?</h3>
+    </section>
+    <div class="w-100"></div>
+        <section class="row">
+               <form>
+                <input type="radio" id="killer_dog" name="killer" value="5">
+                <label class="h5" for="protective"><b>Great protector of property. Will attack an intruder </b><em>WOOF WOOF!!! GRRR BITE ...Sorry my dog ate your finger!</em></label><br>
+                <input type="radio" id="guarder" name="" value="4">
+                <label class="h5" for="protective"><b>Good protector of property Will alert of an intruder </b>WOOF WOOF!!!Beware of Dog! Keep moving mailman! Not today squirel!</label><br>
+                <input type="radio" id="ready_to_alert" name="medium_guard" value="3">
+                <label class="h5" for="protective"><b>protects property and alerts of intruder </b> <em>WOOF! I heard noise! Woof! Woof! Someone is here! Squirrel!</em></label><br>
+                <input type="radio" id="not_a_guard" name="no_guard" value="2">
+                <label class="h5" for="protective"><b>Not a good protector or alerter of property</b><em>WOOF! Squirel! Woof! Wait, someone is here... Did you bring food?</em></label><br>
+                <input type="radio" id="bad_guard" name="bad_guard" value="1">
+                <label class="h5" for="protective"><b>Bad guard dog </b><em>WOOF! What's mine is yours!  Welcome to my home! Rub my belly! Do you have treats?</em></label><br>
+            </form>
+        </section>
+        {{!-- Sixth Question: otherDogs --}}
+        <section>
+        <h3>Will your dog be around other dogs?</h3>
+    </section>
+    <div class="w-100"></div>
+        <section class="row">
+               <form>
+                <input type="radio" id="hate_dogs" name="hate_dog" value="1">
+                <label class="h5" for="otherDogs"><b>Hates other dogs </b><em>WOOF! Come at me bro! WOOF! I will RUFF you up!!! FIGHT! Fight! Fight!</em></label><br>
+                <input type="radio" id="dont_like_dogs" name="no_dog" value="2">
+                <label class="h5" for="otherDogs"><b>Doesn't like other dogs </b><em>GRRR! No other dogs!!! WOOF! Just me and my family the way it should be!</em></label><br>
+                <input type="radio" id="ok_dog" name="ok_dog" value="3">
+                <label class="h5" for="otherDogs"><b>Tolerates other dogs</b>WOOF! Who are you??? Sniff! Sniff! You might be cool! WOOF!</label><br>
+                <input type="radio" id="like_dog" name="like-dog" value="4">
+                <label class="h5" for="otherDogs"><b>Likes other dogs </b>WOOF! There's a dogs! Lets play chase. Woof This is my kind of pack!</label><br>
+                <input type="radio" id="love_dog" name="" value="5">
+                <label class="h5" for="otherDogs"><b>Loves other dogs </b>WOOF!I love other dogs! Lets play! WOOF! Dogs Parks are the best thing ever! I hear All Things Pets has great suggestions!</label><br>
+            </form>
+        </section>
+        {{!-- Seventh Question: strangers --}}
+        <section>
+        <h3>Will your dog be around strangers?</h3>
+        </section>
+        <div class="w-100"></div>
+        <section class="row">
+               <form>
+                <input type="radio" id="stranger_danger" name="hate_stranger" value="1">
+                <label class="h5" for="strangers"><b>Hates strangers </b><em>WOOF! I don't know you! Woof! GRRR! Stranger Danger! I am ready to tear you up!</em></label><br>
+                <input type="radio" id="no_stranger" name="no_stranger" value="2">
+                <label class="h5" for="strangers"><b>Doesn't like strangers </b><em>WOOF! Who is this! No don't pet me! Back off I might bite!</em></label><br>
+                <input type="radio" id="ok_stranger" name="ok_stranger" value="3">
+                <label class="h5" for="strangers"><b>Tolerates strangers </b><em>WOOF! Who are you??? SNIFF My owner thinks you are ok... you might be cool...</em></label><br>
+                <input type="radio" id="like_stranger" name="like_stranger" value="4">
+                <label class="h5" for="strangers"><b>Likes Strangers</b><em>WOOF! Oh my owner thinks you are ok. That must mean we are friends! Do you have treats?</em></label><br>
+                <input type="radio" id="love_stranger" name="love_stranger" value="5">
+                <label class="h5" for="strangers"><b>Loves strangers </b><em>WOOF! Have we met? I LOVE YOU! WOOF! I hope I didn't come on too strong! Pet me!!!</em></label><br>
+                </form>
+            </section>
+            {{!-- Eighth Question: grooming --}}
+        <section>
+        <h3>How much grooming are you ready for? Keep in mind all breeds need nail trimming.</h3>
+        </section>
+        <div class="w-100"></div>
+        <section class="row">
+               <form>
+                <input type="radio" id="beauty_shop" name="daily_grooming" value="5">
+                <label class="h5" for="grooming"><b>Daily Grooming</b><em>WOOF WOOF! You're a fly dog, the get your nails done. Get a pedicure, get your hair did.</em></label><br>
+                <input type="radio" id="extra-grooming" name="extra_grooming" value="4">
+                <label class="h5" for="grooming"><b>Grooming at least two times a week</b> <em>WOOF WOOF! It's not dog fur... It's canine confetti!</em></label><br>
+                <input type="radio" id="reg_grooming" name="grooming" value="3">
+                <label class="h5" for="grooming"><b>Weekly Grooming</b> <em>WOOF WOOF! It's time for my weekly grooming!</em></label><br>
+                <input type="radio" id="lite_grooming" name="like_stranger" value="2">
+                <label class="h5" for="grooming"><b>Grooming twice a month</b> <em>WOOF WOOF! Brush me to keep me from shedding on everything.</em></label><br>
+                <input type="radio" id="little_grooming" name="little_grooming" value="1">
+                <label class="h5" for="grooming"><b>Grooming once a month </b><em>WOOF! Brush me once a month and bathe me when I stink LICK!</em></label><br>
+                </form>
+            </section>
+            {{!-- Ninth Question: trainable --}}
+    <section>
+        <h3>How much training are you prepared to invest with the dog? Remember all them take time to learn. And trainability is not a indication of intelligience.</h3>
+        </section>
+        <div class="w-100"></div>
+        <section class="row">
+               <form>
+                <input type="radio" id="star_student" name="easily_trained" value="5">
+                <label class="h5" for="trainable"><b>Easiest to Train Obey's a learned command 90% of the time. </b><em>WOOF WOOF! I learned that trick in under 15 tries! High paw! Where's my treat?</em></label><br>
+                <input type="radio" id="above_average" name="b_student" value="4">
+                <label class="h5" for="trainable"><b>Easy to train Obey's a learned command 85% of the time.</b> <em>WOOF WOOF! I learned that trick in under 25 tries! High Paw! Where's my treat?</em></label><br>
+                <input type="radio" id="train_me" name="average_student" value="3">
+                <label class="h5" for="trainable"><b>Trainable...Obey's a learned command 70% of the time.</b> <em>WOOF WOOF! I learned that command in under 40 tries! Where's my treat?</em></label><br>
+                <input type="radio" id="dumb_dog" name="d_student" value="2">
+                <label class="h5" for="trainable"><b>Training takes work...Obey's a learned command 50% of the time on the first try. </b><em>WOOF WOOF! I learned that command in less 60 tries! Looks like you need to buy more treats!</em></label><br>
+                <input type="radio" id="dumber_dog" name="special_ed_dog" value="1">
+                <label class="h5" for="trainable"><b>Training takes a lot of work...Obey's a learned command 25% of the time on the first try. </b><em>WOOF WOOF! Hello my name is Forrest. Forrest Dog. Life is like a box of biscuits! LICK I learned a trick in under 100 tries.</em></label><br>
+                </form>
+            </section>
+            {{!-- Tenth Question: barking --}}
+    <section>
+        <h3>How much barking are you ready for?</h3>
+    </section>
+    <div class="w-100"></div>
+        <section class="row">
+        <form>
+            <input type="radio" id="yapper" name="extremely_talkative" value="5">
+            <label class="h5" for="barking"><b>Extremely talkative </b><em>WOOF WOOF! I love the sound of my voice. WOOF WOOF! Look at me! WOOF WOOF! I could talk all day!</em></label><br>
+            <input type="radio" id="gossip" name="very_talkative" value="4">
+            <label class="h5" for="barking"><b>Talks a lot</b> <em>WOOF WOOF! So let me tell you about my day...Squirrel!</em></label><br>
+            <input type="radio" id="talkative" name="talkative" value="3">
+            <label class="h5" for="barking"><b>Talkative at times</b> <em>WOOF WOOF! another dog is barking that means I need to bark too!</em></label><br>
+            <input type="radio" id="little_talk" name="kinda_quiet" value="2">
+            <label class="h5" for="barking"><b>Less Talkative </b><em>WOOF WOOF! I like to bark a little but I try to be quiet...SNIFF What's that you are eating???</em></label><br>
+            <input type="radio" id="quiet_dog" name="quiet_dog" value="1">
+            <label class="h5" for="barking"><b>Quiet Dog </b><em>WOOF WOOF! I'm only barking to alert you. Where's my treat?</em></label><br>
+            </form>
+        </section>
+        </section>
+    </main>
+     <footer id="footer_questions" style="border-top: 4px solid #c8a56f" class="section_button_find text-center mt-5 py-5">
+            <button id="find_dog" class="p-2">Find your dog!!!</button>
+        </footer>
+    <script src="/js/dogQuestions.js"></script>
+<script src="../public/js/dogQuestions.js"></script>
+</body>

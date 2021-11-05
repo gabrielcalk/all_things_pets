@@ -3,403 +3,403 @@ const DogsNames = require('../models/dognames')
 const femaleNames = [
     {
         name: "Bella",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Lucy",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Daisy",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Molly",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Lola",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Sophie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Sadie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Maggie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Chloe",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Bailey",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Roxy",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Zoey",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Lily",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Luna",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Coco",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Stella",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Gracie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Abby",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Penny",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Zoe",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Ginger",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Ruby",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Rosie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Lilly",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Ellie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Mia",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Sasha",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Lulu",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Pepper",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Nala",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Lexi",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Lady",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Emma",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Riley",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Dixie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Annie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Maddie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Piper",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Princess",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Izzy",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Maya",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Olive",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Cookie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Roxie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Angel",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Belle",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Layla",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Missy",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Cali",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Honey",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Millie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Harley",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Marley",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Holly",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Kona",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Shelby",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Jasmine",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Ella",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Charlie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Minnie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Willow",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Phoebe",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Callie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Scout",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Katie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Dakota",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Sugar",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Sandy",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Josie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Macy",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Trixie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Winnie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Peanut",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Mimi",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Hazel",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Mocha",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Cleo",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Hannah",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Athena",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Lacey",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Sassy",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Lucky",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Bonnie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Allie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Brandy",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Sydney",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Casey",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Gigi",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Baby",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Madison",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Heidi",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Sally",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Shadow",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Cocoa",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Pebbles",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Misty",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Nikki",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Lexie",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Grace",
-        type: "female"
+        type: "Female"
     },
     {
         name: "Sierra",
-        type: "female"
+        type: "Female"
     }
 ]
 
