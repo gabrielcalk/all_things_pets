@@ -26,7 +26,8 @@ questionsRouter.get('/cat', (req, res) =>{
         res.redirect('/login')
         return
     }
-    res.render('questions_cat')
+    res.render('questions_cat',  {
+        layout:false})
 });
 
 questionsRouter.post('/cat/data', async (req, res) =>{

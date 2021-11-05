@@ -1,6 +1,7 @@
-const find_cat = document.querySelector('#find_cat')
-const main_questions = document.querySelector('#main_questions')
-const footer_questions = document.querySelector('#footer_questions')
+const find_cat = document.querySelector('#find_cat');
+const main_questions = document.querySelector('#main_questions');
+const footer_questions = document.querySelector('#footer_questions');
+const section_cats_for_you = document.querySelector('#section_cats_for_you');
 
 // First Question
 const yes_allergenic = document.querySelector('#yes_allergenic');
@@ -47,7 +48,6 @@ const yes_vet = document.querySelector('#yes_vet');
 const no_vet = document.querySelector('#no_vet');
 const no_recommentadions_vet = document.querySelector('#no_recommentadions_vet');
 
-
 const inputs = [
     // First Question
     yes_allergenic,
@@ -85,6 +85,7 @@ const inputs = [
 ]
 
 const inputs_picked = []
+const cats_for_user = []
 
 const get_inputs = async () =>{
     for(i = 0; i < inputs.length; i++){
@@ -100,10 +101,53 @@ const get_inputs = async () =>{
         },
     })
     .then((response) => response.json())
-    .then((dogs) => {
-        console.log(dogs)
-        main_questions.classList.add('hide')
-        footer_questions.classList.add('hide')
+    .then((cats) => {
+        main_questions.classList.add('hide');
+        footer_questions.classList.add('hide');
+        section_cats_for_you.classList.remove('hide')
+
+        console.log(cats)
+        console.log(cats[0].energy_level)
+        for(i = 0; i < cats.length; i++){
+            if( cats[i].hypo_allergenic == inputs_picked[0] && 
+                cats[i].grooming_frequency == inputs_picked[1] &&
+                cats[i].like_children == inputs_picked[2] &&
+                cats[i].outdoor_indoor == inputs_picked[3] &&
+                cats[i].energy_level == inputs_picked[4] && 
+                cats[i].affectionate == inputs_picked[5] &&
+                cats[i].independence == inputs_picked[6]
+                ){
+                    cats_for_user.push(cats[i])
+            }
+        }
+        if (cats_for_user.length == 0){
+            console.log('No Cats For You')
+        } 
+
+        console.log(cats_for_user)
+
+        for(i = 0; i < cats_for_user.length; i++){
+            const h3_cat_name = document.createElement('h3');
+            const p_cat_descr = document.createElement('p');
+            const img_cat = document.createElement('img')
+            const section_cats_text = document.createElement('section')
+            const section_cat_all = document.createElement('section')
+            
+            h3_cat_name.textContent = cats_for_user[i].breed;
+            p_cat_descr.textContent = cats_for_user[i].description;
+            img_cat.src = cats_for_user[i].images;
+
+            section_cats_text.append(h3_cat_name);
+            section_cats_text.append(p_cat_descr);
+
+            section_cat_all.append(img_cat);
+            section_cat_all.append(section_cats_text)
+
+            section_cat_all.classList.add('d-flex', 'justify-content-center', 'align-items-center')
+            img_cat.classList.add('cat_image')
+
+            section_cats_for_you.append(section_cat_all)
+        }
     });
 };
 
