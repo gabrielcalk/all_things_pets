@@ -11,16 +11,40 @@ Dogs.init(
             primaryKey: true,
             autoIncrement: true,
         },
+        breedName: {
+            type: DataTypes.STRING,
+        },
         breedGroup: {
             type: DataTypes.STRING,
             allowNull: false
         },
-        breedName: {
+        size: {
             type: DataTypes.STRING,
+        }, 
+        energy: {
+            type: DataTypes.INTEGER,
         },
-     //   hypoallergenic: {
-       //     type: DataTypes.BOOLEAN,
-    //    }, 
+        children: {
+            type: DataTypes.INTEGER,
+        },
+        protective: {
+            type: DataTypes.INTEGER,
+        },
+        otherDogs: {
+            type: DataTypes.INTEGER,
+        },
+        strangers: {
+            type: DataTypes.INTEGER,
+        },
+        grooming: {
+            type: DataTypes.INTEGER,
+        },
+        trainable: {
+            type: DataTypes.INTEGER,
+        },
+        barking: {
+            type: DataTypes.INTEGER,
+        },
         life: {
             type: DataTypes.STRING,
             allowNull: false,
@@ -36,12 +60,6 @@ Dogs.init(
             type: DataTypes.TEXT,
             allowNull: false,
         },
-        children: {
-            type: DataTypes.INTEGER,
-        },
-        protective: {
-            type: DataTypes.INTEGER,
-        },
         playfulness: {
             type:DataTypes.INTEGER,
         },
@@ -49,26 +67,8 @@ Dogs.init(
             type: DataTypes.INTEGER,
             allowNull: false,
         },
-        otherDogs: {
-            type: DataTypes.INTEGER,
-        },
-        grooming: {
-            type: DataTypes.INTEGER,
-        },
         coat: {
             type: DataTypes.STRING,
-        },
-        strangers: {
-            type: DataTypes.INTEGER,
-        },
-        trainable: {
-            type: DataTypes.INTEGER,
-        },
-        barking: {
-            type: DataTypes.INTEGER,
-        },
-        energy: {
-            type: DataTypes.INTEGER,
         },
         description: {
             type: DataTypes.TEXT,
