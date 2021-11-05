@@ -3064,3 +3064,122 @@ const parks = [
 
     // Dog Beaches
 
+    
+    {
+        "type": "Dog Beaches",
+        "name": "Ponce Inlet Dog Beach",
+        "address": "5000 S Atlantic Ave, Ponce Inlet, FL 32127",
+        "phoneNumber": "(XXX) XXX-XXXX",
+        "website": "https://www.ponce-inlet.org/",
+        "image": "https://discover.pbcgov.org/parks/SiteImages/beachdogs.jpg"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "New Smyrna Beach Dog Park",
+        "address": "2698-2504 Paige Ave, New Smyrna Beach, FL 32168",
+        "phoneNumber": "(XXX) XXX-XXXX",
+        "website": "https://visitnsbfl.com/pet-friendly",
+        "image": "https://s1.1zoom.me/prev/529/Dogs_Beach_Jack_Russell_terrier_Smartphone_Glasses_528992_600x400.jpg"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "Davis Island Dog Beach",
+        "address": "864 Severn Ave, Tampa, FL 33606",
+        "phoneNumber": "(XXX) XXX-XXXX",
+        "website": "https://www.tampa.gov/parks-and-recreation/parks-and-facilities/dog-parks",
+        "image": "https://sanjuan.objects.liquidweb.services/photos/84750-playing_on_south_beach_by_dana_halferty_6_-400x400.jpg"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "Apollo Beach Dog Park",
+        "address": "664 Golf and Sea Blvd, Apollo Beach, FL 33572",
+        "phoneNumber": "(XXX) XXX-XXXX",
+        "website": "https://www.hillsboroughcounty.org/en/locations/apollo-beach-preserve",
+        "image": "https://isteam.wsimg.com/ip/9d4fcd50-4468-4b16-825a-bd7bc06f56eb/2017-08-20%2017.46.26.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "Lake Baldwin Dog Park",
+        "address": "1864-2018 S Lakemont Ave, Winter Park, FL 32789",
+        "phoneNumber": "(XXX) XXX-XXXX",
+        "website": "https://cityofwinterpark.org/departments/parks-recreation/parks-playgrounds/parks/lake-baldwin-park/",
+        "image": "https://1.bp.blogspot.com/-jtzCCNfYEg0/T7B2pFZehBI/AAAAAAAAAEA/5X-B7w-QlyM/s400/federico+stevanin+2.jpg"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "Public Dog Park And Cocoa Beach Access",
+        "address": "1400 N Atlantic Ave, Cocoa Beach, FL 32931",
+        "phoneNumber": "(XXX) XXX-XXXX",
+        "website": "https://www.brevardfl.gov/ParksAndRecreation/ParksByCity/ParksInCocoaBeach/LoriWilsonPark",
+        "image": "https://bloximages.chicago2.vip.townnews.com/ttownmedia.com/content/tncms/assets/v3/editorial/2/2f/22f5b276-d555-556c-bb25-f41bf4e918a4/613df32cdec74.image.jpg?resize=400%2C267"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "Lori Wilson Park",
+        "address": "1500 N Atlantic Ave, Cocoa Beach, FL 32931",
+        "phoneNumber": "(XXX) XXX-XXXX",
+        "website": "https://www.brevardfl.gov/ParksAndRecreation/ParksByCity/ParksInCocoaBeach/LoriWilsonPark",
+        "image": "https://storage.googleapis.com/afs-prod/media/9e0b5b4594ec44e0bd395dc3ed99096b/400.jpeg"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "Brevard County Marina Dog Park",
+        "address": "501 Marina Rd, Titusville, FL 32796",
+        "phoneNumber": "(XXX) XXX-XXXX",
+        "website": "https://www.brevardfl.gov/ParksAndRecreation/ParksByCity/ParksInTitusville/Marina",
+        "image": "https://www.pethealthnetwork.com/sites/default/files/dog_beach474256959.jpg"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "Satellite Beach Dog Park",
+        "address": "750 Jamaica Blvd, Satellite Beach, FL 32937",
+        "phoneNumber": "(321) 777-8004",
+        "website": "https://www.satellitebeach.org/departments/recreation_department/recreation_facilities/dog_park.php",
+        "image": "https://img1.wsimg.com/isteam/ip/6143323a-4490-4f29-a4b6-ea5da592e2a7/07a9390d18a72f4cbb419407e9aa0d41.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "Smyrna Beach",
+        "address": "2995 N. Peninsula Ave., New Smyrna Beach",
+        "phoneNumber": "(XXX) XXX-XXXX",
+        "website": "https://www.volusia.org/services/public-works/coastal-division/coastal-parks/smyrna-dunes-park.stml",
+        "image": "https://a-z-animals.com/media/bluetick-coonhound-1-400x300.jpg"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "Barkley Square Dog Park",
+        "address": "1010 N. Ridgewood Ave., DeLand",
+        "phoneNumber": "(XXX) XXX-XXXX",
+        "website": "https://www.volusia.org/services/community-services/parks-recreation-and-culture/parks-and-trails/park-facilities-and-locations/pets-in-volusia-county-parks/barkley-square.stml",
+        "image": "https://cdn.shopify.com/s/files/1/0902/5322/articles/176298693_378002860044845_7533210578006336045_n_400x400_crop_center.jpg?v=1621972040"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "Hightower Beach Park",
+        "address": "815 Highway A1A Satellite Beach, FL 32937",
+        "phoneNumber": "(321) 773-6458",
+        "website": "https://www.satellitebeach.org/departments/recreation_department/recreation_facilities/beach_parks/index.php",
+        "image": "https://bigdogsroadtrip.com/wp-content/uploads/2021/08/Lark-at-beach-400x400.jpg"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "Canova Beach Park",
+        "address": "3299 Highway A1A, Indian Harbour Beach, FL 32937",
+        "phoneNumber": "(321) 255-4400",
+        "website": "https://www.brevardfl.gov/ParksAndRecreation/ParksByCity/ParksInIndianHarbourBeach/Canova",
+        "image": "https://www.marinhumane.org/wp-content/uploads/2021/04/IMG_0530-400x371-1.jpeg"
+    },
+    {
+        "type": "Dog Beaches",
+        "name": "Smyrna Dunes Park",
+        "address": "2995 N Peninsula Ave, New Smyrna Beach, FL 32169",
+        "phoneNumber": "(386) 424-2935",
+        "website": "https://www.volusia.org/services/public-works/coastal-division/coastal-parks/smyrna-dunes-park.stml",
+        "image": "https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/assets/v3/editorial/0/59/059274e7-e75c-5bc4-bd6d-7673ff75df53/58050589d483a.image.jpg?resize=400%2C273"
+    }
+]
+
+const seedPark = () => Locations.bulkCreate(parks);
+
+module.exports = seedPark;
+
