@@ -154,6 +154,10 @@ button:hover{
     color: var(--color3);
 }
 
+.hide{
+    display: none;
+}
+
 @media only screen and (max-width: 1815px) {
     .button_section{
         width: 42%;

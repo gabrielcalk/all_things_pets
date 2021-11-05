@@ -1,4 +1,4 @@
-const Dogs = require('../models/Dogs')
+const Dogs = require('../models/dogs')
 
 const dogBreeds =[
         {
@@ -4523,6 +4523,6 @@ const dogBreeds =[
         }
     ]
 
-    const seeddogBreeds = () => Dogs.bulkCreate(dogBreeds);
+const seedDogBreeds = () => Dogs.bulkCreate(dogBreeds);
 
-module.exports = seeddogBreeds;
+module.exports = seedDogBreeds;
