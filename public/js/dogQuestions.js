@@ -181,15 +181,15 @@ const inputs_picked_9 = []
 const inputs_picked_10 = []
 
 const breedGroup_array = [];
-const size = [];
-const energy = [];
-const children = [];
-const protective = [];
-const otherDogs = [];
-const strangers = [];
-const grooming = [];
-const trainable = [];
-const barking = [];
+const size_array = [];
+const energy_array = [];
+const children_array = [];
+const protective_array = [];
+const otherDogs_array = [];
+const strangers_array = [];
+const grooming_array = [];
+const trainable_array = [];
+const barking_array = [];
 
 
 
@@ -263,13 +263,34 @@ const get_inputs = async () =>{
     })
     .then((response) => response.json())
     .then((dogs) => {
-        // Breed Name
-        for (i = 0; i < dogs.length; i++ ){
-            if(dogs.breedName.indexOf('sporting dogs')){
-                
+
+        inputs_picked_1.forEach(function(user_choose){
+            for (i = 0; i < dogs.length; i++){
+                if (dogs[i].breedGroup.trim() == user_choose){
+                    breedGroup_array.push(dogs[i])
+                }
             }
-        }
+        });
+
+        inputs_picked_2.forEach(function(user_choose){
+            for (i = 0; i < breedGroup_array.length; i++){
+                if (breedGroup_array[i].size.trim() == user_choose){
+                    size_array.push(breedGroup_array[i])
+                }
+            }
+        });
+
+        inputs_picked_3.forEach(function(user_choose){
+            for (i = 0; i < size_array.length; i++){
+                if (size_array[i].energy == user_choose){
+                    energy_array.push(size_array[i])
+                }
+            }
+        });
+
         console.log(breedGroup_array)
+        console.log(size_array)
+        console.log(energy_array)
     })
 }
 
