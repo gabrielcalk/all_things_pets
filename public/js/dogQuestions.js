@@ -76,112 +76,221 @@ const talkative = document.querySelector('#talkative');
 const little_talk = document.querySelector('#little_talk');
 const quiet_dog = document.querySelector('#quiet_dog');
 
-const inputs = [
 // First Question Inputs
-sporting_dogs,
-hound_dogs,
-working_dogs,
-terrier_dogs,
-companion_group,
-herding_group,
-mixed_group,
-// Second Question Inputs
-xsmall,
-small,
-medium,
-large,
-xlarge,
-giant,
-// Third Question Inputs
-potato,
-lazy,
-moderate,
-active,
-very_active,
-// Forth Question Inputs
-never_children,
-rarely_children,
-sometimes_kids,
-likes_kids,
-loves_kids,
-// Fifth Question Inputs
-killer_dog,
-guarder,
-ready_to_alert,
-not_a_guard,
-bad_guard,
-// Sixth Question Inputs
-hate_dogs,
-dont_like_dogs,
-ok_dog,
-like_dog,
-love_dog,
-// Seventh Question Inputs
-stranger_danger,
-no_stranger,
-ok_stranger,
-like_stranger,
-love_stranger,
-// Eighth Question
-beauty_shop,
-extra_grooming,
-reg_grooming,
-lite_grooming,
-little_grooming,
-// Ninth Question
-star_student,
-above_average,
-train_me,
-dumb_dog,
-dumber_dog,
-// Tenth Question
-yapper,
-gossip,
-talkative,
-little_talk,
-quiet_dog,
+const inputs_1 = [
+    sporting_dogs,
+    hound_dogs,
+    working_dogs,
+    terrier_dogs,
+    companion_group,
+    herding_group,
+    mixed_group
 ]
 
-const inputs_picked = []
+// Second Question Inputs
+const inputs_2 = [
+    xsmall,
+    small,
+    medium,
+    large,
+    xlarge,
+    giant
+]
+
+// Third Question Inputs
+const inputs_3 = [
+    potato,
+    lazy,   
+    moderate,
+    active,
+    very_active
+]
+
+// Forth Question Inputs
+const inputs_4 = [
+    never_children,
+    rarely_children,
+    sometimes_kids,
+    likes_kids,
+    loves_kids
+]
+
+// Fifth Question Inputs
+const inputs_5 = [
+    killer_dog,
+    guarder,
+    ready_to_alert,
+    not_a_guard,
+    bad_guard
+]
+
+// Sixth Question Inputs
+const inputs_6 = [
+    hate_dogs,
+    dont_like_dogs,
+    ok_dog,
+    like_dog,
+    love_dog
+]
+
+// Seventh Question Inputs
+const inputs_7 = [
+    stranger_danger,
+    no_stranger,
+    ok_stranger,
+    like_stranger,
+    love_stranger
+]
+
+// Eighth Question
+const inputs_8 = [
+    beauty_shop,
+    extra_grooming,
+    reg_grooming,
+    lite_grooming,
+    little_grooming
+]
+
+// Ninth Question
+const inputs_9 = [
+    star_student,
+    above_average,
+    train_me,
+    dumb_dog,
+    dumber_dog
+]
+
+// Tenth Question
+const inputs_10 = [
+    yapper,
+    gossip,
+    talkative,
+    little_talk,
+    quiet_dog
+]
+
+const inputs_picked_1 = []
+const inputs_picked_2 = []
+const inputs_picked_3 = []
+const inputs_picked_4 = []
+const inputs_picked_5 = []
+const inputs_picked_6 = []
+const inputs_picked_7 = []
+const inputs_picked_8 = []
+const inputs_picked_9 = []
+const inputs_picked_10 = []
+
+const breedGroup_array = [];
+const size_array = [];
+const energy_array = [];
+const children_array = [];
+const protective_array = [];
+const otherDogs_array = [];
+const strangers_array = [];
+const grooming_array = [];
+const trainable_array = [];
+const barking_array = [];
+
+
+
 const dogs_for_user = []
 
 const get_inputs = async () =>{
-    for(i = 0; i < inputs.length; i++){
-        if(inputs[i].checked == true){
-            inputs_picked.push(inputs[i].value)
+    for(i = 0; i < inputs_1.length; i++){
+        if(inputs_1[i].checked == true){
+            inputs_picked_1.push(inputs_1[i].value)
+        }
+    }
+
+    for(i = 0; i < inputs_2.length; i++){
+        if(inputs_2[i].checked == true){
+            inputs_picked_2.push(inputs_2[i].value)
+        }
+    }
+
+    for(i = 0; i < inputs_3.length; i++){
+        if(inputs_3[i].checked == true){
+            inputs_picked_3.push(inputs_3[i].value)
+        }
+    }
+
+    for(i = 0; i < inputs_4.length; i++){
+        if(inputs_4[i].checked == true){
+            inputs_picked_4.push(inputs_4[i].value)
+        }
+    }
+    
+    for(i = 0; i < inputs_5.length; i++){
+        if(inputs_5[i].checked == true){
+            inputs_picked_5.push(inputs_5[i].value)
+        }
+    }
+
+    for(i = 0; i < inputs_6.length; i++){
+        if(inputs_6[i].checked == true){
+            inputs_picked_6.push(inputs_6[i].value)
+        }
+    }
+
+    for(i = 0; i < inputs_7.length; i++){
+        if(inputs_7[i].checked == true){
+            inputs_picked_7.push(inputs_7[i].value)
+        }
+    }
+
+    for(i = 0; i < inputs_8.length; i++){
+        if(inputs_8[i].checked == true){
+            inputs_picked_8.push(inputs_8[i].value)
+        }
+    }
+
+    for(i = 0; i < inputs_9.length; i++){
+        if(inputs_9[i].checked == true){
+            inputs_picked_9.push(inputs_9[i].value)
+        }
+    }
+
+    for(i = 0; i < inputs_10.length; i++){
+        if(inputs_10[i].checked == true){
+            inputs_picked_10.push(inputs_10[i].value)
         }
     }
     const res = await fetch('/questions/dog/data', {
-        method: 'POST',
-        body: JSON.stringify({inputs_picked}),
+        method: 'GET',
         headers: {
             'Content-Type': 'application/json',
         },
     })
     .then((response) => response.json())
     .then((dogs) => {
-        console.log(dogs)
-        console.log(inputs_picked)
-        main_questions.classList.add('hide');
-        footer_questions.classList.add('hide');
-        section_dogs_for_you.remove('hide')
 
-        for(i = 0; i < dogs.length; i++){
-            if( dogs[i].breedGroup.trim() == inputs_picked[0] && 
-                dogs[i].size == inputs_picked[1] //&&
-                // dogs[i].energy == inputs_picked[2] &&
-                // dogs[i].children == inputs_picked[3] &&
-                // dogs[i].protective == inputs_picked[4] && 
-                // dogs[i].otherDogs == inputs_picked[5] &&
-                // dogs[i].strangers == inputs_picked[6] &&
-                // dogs[i].grooming == inputs_picked[7] &&
-                // dogs[i].trainable == inputs_picked[8] &&
-                // dogs[i].barking == inputs_picked[9]
-                ){
-                    dogs_for_user.push(dogs[i])
+        inputs_picked_1.forEach(function(user_choose){
+            for (i = 0; i < dogs.length; i++){
+                if (dogs[i].breedGroup.trim() == user_choose){
+                    breedGroup_array.push(dogs[i])
+                }
             }
-        }
-        console.log(dogs_for_user)
+        });
+
+        inputs_picked_2.forEach(function(user_choose){
+            for (i = 0; i < breedGroup_array.length; i++){
+                if (breedGroup_array[i].size.trim() == user_choose){
+                    size_array.push(breedGroup_array[i])
+                }
+            }
+        });
+
+        inputs_picked_3.forEach(function(user_choose){
+            for (i = 0; i < size_array.length; i++){
+                if (size_array[i].energy == user_choose){
+                    energy_array.push(size_array[i])
+                }
+            }
+        });
+
+        console.log(breedGroup_array)
+        console.log(size_array)
+        console.log(energy_array)
     })
 }
 

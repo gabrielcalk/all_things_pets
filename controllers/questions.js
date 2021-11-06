@@ -54,7 +54,7 @@ questionsRouter.get('/dog', (req, res) =>{
         layout:false})
 });
 
-questionsRouter.post('/dog/data', async (req, res) =>{
+questionsRouter.get('/dog/data', async (req, res) =>{
     try{
         if(!req.session.logged_in){
             res.redirect('/login')
