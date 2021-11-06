@@ -13,9 +13,9 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "dog_compatibility": "yes",
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "American Bobtail",
@@ -29,7 +29,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "no",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -45,7 +45,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -61,7 +61,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -77,7 +77,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -93,7 +93,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -109,7 +109,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "no",
       "child_compatability": "yes"
   },
@@ -125,7 +125,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "no",
       "child_compatability": "yes"
   },
@@ -141,7 +141,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -157,7 +157,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -173,7 +173,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -189,7 +189,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -205,7 +205,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -221,7 +221,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -237,7 +237,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -253,7 +253,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -269,7 +269,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -285,7 +285,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -301,7 +301,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "no",
+      "dog_compatibility": "no",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -317,7 +317,7 @@ const catBreeds = [
       "playful": "no",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -333,7 +333,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -349,7 +349,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -365,7 +365,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -381,7 +381,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -397,7 +397,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -413,7 +413,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -429,7 +429,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -445,7 +445,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -461,7 +461,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -477,7 +477,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -493,7 +493,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -509,7 +509,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -525,7 +525,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -541,7 +541,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -557,7 +557,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -573,7 +573,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -589,7 +589,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -605,7 +605,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -621,7 +621,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "no"
   },
@@ -637,7 +637,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -653,7 +653,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "no",
       "independence": "no",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -669,7 +669,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -685,7 +685,7 @@ const catBreeds = [
       "playful": "no",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -701,7 +701,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -717,7 +717,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -733,7 +733,7 @@ const catBreeds = [
       "playful": "no",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -749,7 +749,7 @@ const catBreeds = [
       "playful": "no",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -765,7 +765,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -781,7 +781,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "no",
       "child_compatability": "yes"
   },
@@ -797,7 +797,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -813,7 +813,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -829,7 +829,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -845,7 +845,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -861,7 +861,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -877,7 +877,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -893,7 +893,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -909,7 +909,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -925,7 +925,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -941,7 +941,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -957,7 +957,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -973,7 +973,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -989,7 +989,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -1005,7 +1005,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   },
@@ -1021,7 +1021,7 @@ const catBreeds = [
       "playful": "yes",
       "affection": "yes",
       "independence": "yes",
-      "dog_compatability": "yes",
+      "dog_compatibility": "yes",
       "cat_compatability": "yes",
       "child_compatability": "yes"
   }
