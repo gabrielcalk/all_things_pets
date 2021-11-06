@@ -211,4 +211,6 @@ female.addEventListener('click', findFemale);
 male.addEventListener('click', findMale);
 
 renderLetters()
+
+
   
