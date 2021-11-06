@@ -26,165 +26,39 @@
     {{!-- First Questions: Hypo-Allergenic --}}
         <section class="container mt-5">
             <section>
-                <h3>Do you need a hypo-allergenic breed?</h3>
+                <h3>How allergic are you to me?</h3>
             </section>
             <div class="w-100"></div>
             <section class="row">
                 <form>
-                    <input type="radio" id="yes_allergenic" name="inlineRadioOptions" value="Yes">
-                    <label class="h5" for="Yes"> Yes</label><br>
-                    <input type="radio" id="no_allergenic" name="inlineRadioOptions" value="No">
-                    <label class="h5" for="No"> No</label><br>
+                    <input type="radio" id="allergic" name="inlineRadioOptions" value="Highly Allergic">
+                    <label class="h5" for="allergic"> Highly allergic, I sneeze at the sight of fur.</label><br>
+                    <input type="radio" id="no_pref_allergenic" name="inlineRadioOptions" value="Allergic, but can handle">
+                    <label class="h5" for="no_pref_allergenic"> Have some allergies, but I can manage.</label><br>
+                    <input type="radio" id="non_allergenic" name="inlineRadioOptions" value="Not allergic at all">
+                    <label class="h5" for="non_allergenic">Not allergic at all! Bring on the cat fur.</label><br>
                 </form>
             </section>
         </section>
 
-    {{!-- Second Questions: How Much Time --}}
+    {{!-- Second Questions: Grooming Needs --}}
         <section class="container mt-5">
             <section>
-                <h3>How much time can you spend grooming?</h3>
+                <h3>What grooming needs do you prefer?</h3>
             </section>
             <div class="w-100"></div>
             <section class="row">
                 <form>
-                    <input type="radio" id="minimal" name="inlineRadioOptions" value="Minimal/Once a Month">
-                    <label class="h5" for="Minimal/Once per Month"> Minimal/Once per Month</label><br>
-                    <input type="radio" id="once_per_week" name="inlineRadioOptions" value="Once a week">
-                    <label class="h5" for="Once per Week"> Once per Week</label><br>
+                    <input type="radio" id="weekly" name="inlineRadioOptions" value="Weekly">
+                    <label class="h5" for="weekly">You seem to have a lot of time on your hands.</label><br>
+                    <input type="radio" id="monthly" name="inlineRadioOptions" value="Monthly">
+                    <label class="h5" for="monthly">You don't care if I shed all over the place.</label><br>
+                    <input type="radio" id="periodically" name="inlineRadioOptions" value="Periodically">
+                    <label class="h5" for="periodically">Grooming??? We don't need no stinking grooming!</label><br>
                 </form>
             </section>
         </section>
 
-    {{!-- Third Questions: Will your animal be around children? --}}
-        <section class="container mt-5">
-            <section>
-                <h3>Will your animal be around children?</h3>
-            </section>
-            <div class="w-100"></div>
-            <section class="row">
-                <form>
-                    <input type="radio" id="yes_children" name="inlineRadioOptions" value="Yes">
-                    <label class="h5" for="yes_children"> Yes</label><br>
-                    <input type="radio" id="no_children" name="inlineRadioOptions" value="No">
-                    <label class="h5" for="no_children"> No</label><br>
-                </form>
-            </section>
-        </section>
-    <section class="section_questions pb-4">
-
-        {{!-- Forth Questions: Will your can be Outdoor or Indoor? --}}
-            <section class="container mt-5 pt-4">
-                <section>
-                    <h3>Will your can be Outdoor or Indoor?</h3>
-                </section>
-                <div class="w-100"></div>
-                <section class="row">
-                    <form>
-                        <input type="radio" id="outdoor" name="inlineRadioOptions" value="Outdoor">
-                        <label class="h5" for="outdoor"> Outdoor</label><br>
-                        <input type="radio" id="indoor" name="inlineRadioOptions" value="Indoor">
-                        <label class="h5" for="indoor"> Indoor</label><br>
-                    </form>
-                </section>
-            </section>
-
-        {{!-- Fifth Questions: How much energy are you expecting your cat to have? --}}
-            <section class="container mt-5">
-                <section>
-                    <h3>How much energy are you expecting your cat to have?</h3>
-                </section>
-                <div class="w-100"></div>
-                <section class="row">
-                    <form>
-                        <input type="radio" id="very_energetic" name="inlineRadioOptions" value="Energetic">
-                        <label class="h5" for="very_energetic"> Very Energetic</label><br>
-                        <input type="radio" id="docile" name="inlineRadioOptions" value="Docile">
-                        <label class="h5" for="docile"> Docile</label><br>
-                    </form>
-                </section>
-            </section>
-
-        {{!-- Sixth Questions: Do you want a cat that craves affection? --}}
-            <section class="container mt-5">
-                <section>
-                    <h3>Do you want a cat that craves affection?</h3>
-                </section>
-                <div class="w-100"></div>
-                <section class="row">
-                    <form>
-                        <input type="radio" id="yes_affection" name="inlineRadioOptions" value="Yes">
-                        <label class="h5" for="yes_affection"> Yes</label><br>
-                        <input type="radio" id="no_affection" name="inlineRadioOptions" value="No">
-                        <label class="h5" for="no_affection"> No</label><br>
-                    </form>
-                </section>
-            </section>
-    </section>
-    {{!-- Seventh Questions: Do you need a cat that can be left alone for extended periods of time? --}}
-        <section class="container mt-5">
-            <section>
-                <h3>Do you need a cat that can be left alone for extended periods of time?</h3>
-            </section>
-            <div class="w-100"></div>
-            <section class="row">
-                <form>
-                    <input type="radio" id="yes_alone" name="inlineRadioOptions" value="Yes">
-                    <label class="h5" for="yes_alone"> Yes</label><br>
-                    <input type="radio" id="no_alone" name="inlineRadioOptions" value="No">
-                    <label class="h5" for="no_alone"> No</label><br>
-                </form>
-            </section>
-        </section>
-
-    {{!-- Eighth Questions: What color do you prefer your cat to be?
-        <section class="container mt-5">
-            <section>
-                <h3>What color do you prefer your cat to be?</h3>
-            </section>
-            <div class="w-100"></div>
-            <section class="row">
-                <form>
-                    <input type="checkbox" id="black_color" value="black">
-                    <label class="h5" for="black_color"> Black</label><br>
-                    
-                    <input type="checkbox" id="white_color" value="white">
-                    <label class="h5" for="white_color"> White</label><br>
-
-                    <input type="checkbox" id="blue_color" value="blue_color">
-                    <label class="h5" for="blue_color"> Blue/Gray</label><br>
-
-                    <input type="checkbox" id="red_color" value="red_color">
-                    <label class="h5" for="red_color"> Ginger/Red</label><br>
-
-                    <input type="checkbox" id="tortishell_color" value="tortishell_color">
-                    <label class="h5" for="tortishell_color"> Tortishell</label><br>
-
-                    <input type="checkbox" id="brown_color" value="brown_color">
-                    <label class="h5" for="brown_color"> Brown</label><br>
-
-                    <input type="checkbox" id="tabby_color" value="tabby_color">
-                    <label class="h5" for="tabby_color"> Tabby</label><br>
-                </form>
-            </section>
-        </section> --}}
-
-    {{!-- ninth Questions: Do you need a cat that can be left alone for extended periods of time? --}}
-        <section class="container mt-5">
-            <section>
-                <h3>Do you currently have a veterinarian?</h3>
-            </section>
-            <div class="w-100"></div>
-            <section class="row">
-                <form>
-                    <input type="radio" id="yes_vet" name="inlineRadioOptions" value="yes">
-                    <label class="h5" for="yes_vet"> Yes</label><br>
-                    <input type="radio" id="no_vet" name="inlineRadioOptions" value="no_vet">
-                    <label class="h5" for="no_vet"> No, but I will find my own</label><br>
-                    <input type="radio" id="no_recommentadions_vet" name="inlineRadioOptions" value="no_recommentadions_vet" checked>
-                    <label class="h5" for="no_recommentadions_vet"> No, but I would like some recommendations</label><br>
-                </form>
-            </section>
-        </section>
     </main>
     <section id="section_cats_for_you" class="container mt-5 hide">
         
