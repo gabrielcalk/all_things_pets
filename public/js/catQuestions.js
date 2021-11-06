@@ -41,7 +41,7 @@ const blue_color = document.querySelector('#blue_color');
 const red_color = document.querySelector('#red_color');
 const tortishell_color = document.querySelector('#tortishell_color');
 const brown_color = document.querySelector('#brown_color');
-const tabby_color = document.querySelector('#tabby_color');
+const cream_color = document.querySelector('#cream_color');
 
 // Ninth Question
 const yes_vet = document.querySelector('#yes_vet');
