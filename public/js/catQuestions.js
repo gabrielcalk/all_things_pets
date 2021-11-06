@@ -3,50 +3,63 @@ const main_questions = document.querySelector('#main_questions');
 const footer_questions = document.querySelector('#footer_questions');
 const section_cats_for_you = document.querySelector('#section_cats_for_you');
 
-// First Question
-const yes_allergenic = document.querySelector('#yes_allergenic');
-const no_allergenic = document.querySelector('#no_allergenic');
+// First Question - hypoallergenic
+const allergic = document.querySelector('#allergic');
+const non_allergenic = document.querySelector('#non_allergenic');
 const no_pref_allergenic = document.querySelector('#no_pref_allergenic');
 
-// Second Question
-const minimal = document.querySelector('#minimal');
-const once_per_week = document.querySelector('#once_per_week');
+// Second Question - grooming needs
+const weekly = document.querySelector('#weekly');
+const monthly = document.querySelector('#monthly');
+const periodically = document.querySelector('#periodically');
 
-// Third Question
+// Third Question - energy level
+const energetic = document.querySelector('#energetic');
+const non_energetic = document.querySelector('#non_energetic');
+
+// Forth Question - playful preference
+const playful = document.querySelector('#playful');
+const non_playful = document.querySelector('#non_playful');
+
+// Fifth Question - affection preference
+const affection = document.querySelector('#affection');
+const non_affection = document.querySelector('#non_affection');
+
+// Sixth Question - independence preference
+const independent = document.querySelector('#independent');
+const needy = document.querySelector('#needy');
+
+// Seventh Question - cats preference for a dog in the home
+const yes_dog = document.querySelector('#yes_dog');
+const no_dog = document.querySelector('#no_dog');
+
+// Eighth Question - cats preference for another cat in the home
+const yes_cat = document.querySelector('#yes_cat');
+const no_cat = document.querySelector('#no_cat');
+
+//Ninth Question - cats preference for children in the home
 const yes_children = document.querySelector('#yes_children');
 const no_children = document.querySelector('#no_children');
 
-// Forth Question
-const outdoor = document.querySelector('#outdoor');
-const indoor = document.querySelector('#indoor');
+// Tenth Question - fur length preference
+const short_hair = document.querySelector('#short_hair');
+const long_hair = document.querySelector('#long_hair');
+const all_hair = document.querySelector('#all_hair');
+const no_hair = document.querySelector('#no_hair');
 
-// Fifth Question
-const very_energetic = document.querySelector('#very_energetic');
-const docile = document.querySelector('#docile');
-
-// Sixth Question
-const yes_affection = document.querySelector('#yes_affection');
-const no_affection = document.querySelector('#no_affection');
-const no_pref_affection = document.querySelector('#no_pref_affection');
-
-// Seventh Question
-const yes_alone = document.querySelector('#yes_alone')
-const no_alone = document.querySelector('#no_alone')
-const no_pref_alone = document.querySelector('#no_pref_alone');
-
-// Eighth Question
+// Eleventh Question - color preference
 const black_color = document.querySelector('#black_color');
 const white_color = document.querySelector('#white_color');
 const blue_color = document.querySelector('#blue_color');
 const red_color = document.querySelector('#red_color');
-const tortishell_color = document.querySelector('#tortishell_color');
 const brown_color = document.querySelector('#brown_color');
 const cream_color = document.querySelector('#cream_color');
+const no_color_preference = document.querySelector('#no_color_preference');
 
-// Ninth Question
+// Twelfth Question
 const yes_vet = document.querySelector('#yes_vet');
 const no_vet = document.querySelector('#no_vet');
-const no_recommentadions_vet = document.querySelector('#no_recommentadions_vet');
+const no_recommendations_vet = document.querySelector('#no_recommendations_vet');
 
 const inputs = [
     // First Question
@@ -75,13 +88,13 @@ const inputs = [
     // white_color,
     // blue_color,
     // red_color,
-    // tortishell_color,
+    // no_color_preference,
     // brown_color,
     // tabby_color,
     // ninth Question
     yes_vet,
     no_vet,
-    no_recommentadions_vet
+    no_recommendations_vet
 ]
 
 const inputs_picked = []
