@@ -30,8 +30,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "no",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "American Curl",
@@ -46,8 +46,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "American Longhair",
@@ -62,8 +62,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "American Shorthair",
@@ -78,8 +78,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "American Wirehair",
@@ -94,8 +94,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Balinese",
@@ -110,8 +110,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "no",
-      "child_compatability": "yes"
+      "cat_compatibility": "no",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Bengal",
@@ -126,8 +126,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "no",
-      "child_compatability": "yes"
+      "cat_compatibility": "no",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Birman",
@@ -142,8 +142,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Bombay",
@@ -158,8 +158,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "British Longhair",
@@ -174,8 +174,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "British Shorthair",
@@ -190,8 +190,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Burmese",
@@ -206,8 +206,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Burmilla",
@@ -222,8 +222,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "California Spangled",
@@ -238,8 +238,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "California Rex",
@@ -254,8 +254,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Ceylon",
@@ -270,8 +270,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Chartreux",
@@ -286,8 +286,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Chausie",
@@ -302,8 +302,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "no",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Chinchilla Persian",
@@ -318,8 +318,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Cornish Rex",
@@ -334,8 +334,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Cymric",
@@ -350,8 +350,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Devon Rex",
@@ -366,8 +366,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Donskoy",
@@ -382,8 +382,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Egyptian Mau",
@@ -398,8 +398,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Europeann Shorthair",
@@ -414,8 +414,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Exotic Shorthair",
@@ -430,8 +430,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "German Rex",
@@ -446,8 +446,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Havana",
@@ -462,8 +462,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Himalayan",
@@ -478,8 +478,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Japanese Bobtail",
@@ -494,8 +494,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Javanese",
@@ -510,8 +510,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Khao Manee",
@@ -526,8 +526,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Korat",
@@ -542,8 +542,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "LaPerm",
@@ -558,8 +558,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Maine Coon",
@@ -574,8 +574,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Manx",
@@ -590,8 +590,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Munchkin",
@@ -606,8 +606,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Nebelung",
@@ -622,8 +622,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "no"
+      "cat_compatibility": "yes",
+      "child_compatibility": "no"
   },
   {
       "Breed": "Norwegian Forest",
@@ -638,8 +638,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Ocicat",
@@ -654,8 +654,8 @@ const catBreeds = [
       "affection": "no",
       "independence": "no",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Oriental Shorthair",
@@ -670,8 +670,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Persian",
@@ -686,8 +686,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Peterbald",
@@ -702,8 +702,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Pixiebob",
@@ -718,8 +718,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Ragamuffin",
@@ -734,8 +734,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Ragdoll",
@@ -750,8 +750,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Russian Blue",
@@ -766,8 +766,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Savannah",
@@ -782,8 +782,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "no",
-      "child_compatability": "yes"
+      "cat_compatibility": "no",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Scottish Fold",
@@ -798,8 +798,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Selkirk Rex",
@@ -814,8 +814,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Siamese",
@@ -830,8 +830,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Siberian",
@@ -846,8 +846,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Singapura",
@@ -862,8 +862,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Snowshoe",
@@ -878,8 +878,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Sokoke",
@@ -894,8 +894,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Somali",
@@ -910,8 +910,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Sphynx",
@@ -926,8 +926,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Thai",
@@ -942,8 +942,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Tiffany",
@@ -958,8 +958,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Tonkinese",
@@ -974,8 +974,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Toyger",
@@ -990,8 +990,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Turkish Angora",
@@ -1006,8 +1006,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   },
   {
       "Breed": "Turkish Van",
@@ -1022,8 +1022,8 @@ const catBreeds = [
       "affection": "yes",
       "independence": "yes",
       "dog_compatibility": "yes",
-      "cat_compatability": "yes",
-      "child_compatability": "yes"
+      "cat_compatibility": "yes",
+      "child_compatibility": "yes"
   }
 ]
 
@@ -1037,9 +1037,9 @@ const catBreeds = [
 // energy level options
 // playfulness options
 // independence level options
-// cat breeds compatability with dogs option
-// cat breeds  compatability with additional cats options
-// cat breeds  compatability with children options
+// cat breeds compatibility with dogs option
+// cat breeds  compatibility with additional cats options
+// cat breeds  compatibility with children options
 
 
 const seedCatBreeds = () => Cats.bulkCreate(catBreeds);

@@ -60,13 +60,13 @@
                 <div class="w-100"></div>
                 <section class="row">
                     <form>
-                        <input type="radio" id="allergic" name="inlineRadioOptions" value="Highly Allergic">
+                        <input type="radio" id="allergic" name="inlineRadioOptions" value="non_allergic">
                         <label class="h5" for="hypoallergenic"> <b><i>Highly allergic</i></b>, I want to make your sneeze and cause pain.</label><br>
                     
-                        <input type="radio" id="no_pref_allergenic" name="inlineRadioOptions" value="Allergic, but can handle">
+                        <input type="radio" id="no_pref_allergenic" name="inlineRadioOptions" value="neutral">
                         <label class="h5" for="hypoallergenic"> <b><i>Have some allergies</i></b>, but you won't die.</label><br>
                    
-                        <input type="radio" id="non_allergenic" name="inlineRadioOptions" value="Not allergic at all">
+                        <input type="radio" id="non_allergenic" name="inlineRadioOptions" value="allergic">
                         <label class="h5" for="hypoallergenic"><b><i>Not allergic at all!</i></b> I'm the furminator! I will leave fur everywhere I lay.</label><br>
                     </form>
                 </section>
@@ -80,13 +80,13 @@
             <div class="w-100"></div>
             <section class="row">
                 <form>
-                    <input type="radio" id="weekly" name="inlineRadioOptions" value="Weekly">
+                    <input type="radio" id="weekly" name="inlineRadioOptions" value="weekly">
                     <label class="h5" for="grooming"><b><i>Weekly</i></b>, I expect you to brush or bath me all the time, otherwise I will throw up a furball in your shoe.</label><br>
                     
-                    <input type="radio" id="monthly" name="inlineRadioOptions" value="Monthly">
+                    <input type="radio" id="monthly" name="inlineRadioOptions" value="monthly">
                     <label class="h5" for="grooming"><b><i>Monthly</i></b>, you may brush me or bath me, but don't do it too often</label><br>
                    
-                    <input type="radio" id="periodically" name="inlineRadioOptions" value="Periodically">
+                    <input type="radio" id="periodically" name="inlineRadioOptions" value="periodically">
                     <label class="h5" for="grooming"><b>Periodically<i></i></b>, I do not require much in the groom department. I'm low maintenance.</label><br>
                 </form>
             </section>
@@ -100,10 +100,10 @@
             <div class="w-100"></div>
             <section class="row">
                 <form>
-                    <input type="radio" id="yes" name="inlineRadioOptions" value="Energetic">
+                    <input type="radio" id="energetic" name="inlineRadioOptions" value="yes">
                     <label class="h5" for="energy"><b><i>Energetic</i></b>, I plan on waking up at 3am every morning for a quick run.</label><br>
 
-                    <input type="radio" id="no" name="inlineRadioOptions" value="Not Energetic">
+                    <input type="radio" id="non_energetic" name="inlineRadioOptions" value="no">
                     <label class="h5" for="energy"><b><i>Not So Energetic</i></b>, I understand the word sleep.....what do you mean by run???</label><br>
                 </form>
             </section>
@@ -118,15 +118,16 @@
                 <div class="w-100"></div>
                 <section class="row">
                     <form>
-                        <input type="radio" id="yes" name="inlineRadioOptions" value="Playful">
+                        <input type="radio" id="playful" name="inlineRadioOptions" value="yes">
                         <label class="h5" for="playful"><b><i>Playful</i></b>, I love to play! Give me a box, bring out the laser pointer, or I may grab the toilet paper!</label><br>
 
-                        <input type="radio" id="no" name="inlineRadioOptions" value="Not Playful">
+                        <input type="radio" id="non_playful" name="inlineRadioOptions" value="no">
                         <label class="h5" for="playful"><b><i>Not Playful</i></b>, I don't enjoy anything that requires me to move a paw... </label><br>
                     </form>
                 </section>
             </section>
 
+        <section class="section_questions pb-4">
         {{!-- Fifth Questions: affection level --}}
             <section class="container mt-5 pt-4">
                 <section>
@@ -135,10 +136,10 @@
                 <div class="w-100"></div>
                 <section class="row">
                     <form>
-                        <input type="radio" id="yes" name="inlineRadioOptions" value="Affectionate">
+                        <input type="radio" id="affection" name="inlineRadioOptions" value="yes">
                         <label class="h5" for="affection"><b><i>Affectionate</i></b>, if you are watching tv, I love to have a little one on one time to cuddle! </label><br>
 
-                        <input type="radio" id="no" name="inlineRadioOptions" value="Not Affectionate">
+                        <input type="radio" id="non_affection" name="inlineRadioOptions" value="no">
                         <label class="h5" for="affection"><b><i>Not Affectionate</i></b>, you are only here to feed me! I don't give cuddles. </label><br>
                     </form>
                 </section>
@@ -153,10 +154,10 @@
                 <div class="w-100"></div>
                 <section class="row">
                     <form>
-                        <input type="radio" id="yes" name="inlineRadioOptions" value="Independent">
+                        <input type="radio" id="independent" name="inlineRadioOptions" value="yes">
                         <label class="h5" for="independence"><b><i>Independent</i></b>, go to work all day or take a a few days away. I'm good with hanging out with my toys. </label><br>
 
-                        <input type="radio" id="no" name="inlineRadioOptions" value="Clingy">
+                        <input type="radio" id="needy" name="inlineRadioOptions" value="no">
                         <label class="h5" for="independence"><b><i>Clingy</i></b>, please don't leave me at home, I'll sit by the door missing you.  </label><br>
                     </form>
                 </section>
@@ -170,15 +171,15 @@
                 <div class="w-100"></div>
                 <section class="row">
                     <form>
-                        <input type="radio" id="yes" name="inlineRadioOptions" value="Dog Compatible">
+                        <input type="radio" id="yes_dog" name="inlineRadioOptions" value="yes">
                         <label class="h5" for="dog_compatibility"><b><i>Yes</i></b>, I will tolerate that mangy beast.</label><br>
 
-                        <input type="radio" id="no" name="inlineRadioOptions" value="Not Dog Compatible">
+                        <input type="radio" id="no_dog" name="inlineRadioOptions" value="no">
                         <label class="h5" for="dog_compatibility"><b><i>No</i></b>, get that stinky dog away from me!</label><br>
                     </form>
                 </section>
             </section>
-
+        </section>
         {{!-- Eighth Questions: cat compatibility--}}
             <section class="container mt-5 pt-4">
                 <section>
@@ -187,10 +188,10 @@
                 <div class="w-100"></div>
                 <section class="row">
                     <form>
-                        <input type="radio" id="yes" name="inlineRadioOptions" value="Cat Compatible">
+                        <input type="radio" id="yes_cat" name="inlineRadioOptions" value="yes">
                         <label class="h5" for="cat_compatibility"><b><i>Yes</i></b>, I don't mind having another feline cohort.</label><br>
 
-                        <input type="radio" id="no" name="inlineRadioOptions" value="Not Cat Compatible">
+                        <input type="radio" id="no_cat" name="inlineRadioOptions" value="no">
                         <label class="h5" for="cat_compatibility"><b><i>No</i></b>, I'm the only princess in this house!</label><br>
                     </form>
                 </section>
@@ -204,10 +205,10 @@
                 <div class="w-100"></div>
                 <section class="row">
                     <form>
-                        <input type="radio" id="yes" name="inlineRadioOptions" value="Child Compatible">
+                        <input type="radio" id="yes_children" name="inlineRadioOptions" value="yes">
                         <label class="h5" for="child_compatibility"><b><i>Yes</i></b>, I'd like a little munchkin to cuddle with.</label><br>
 
-                        <input type="radio" id="no" name="inlineRadioOptions" value="Not Child Compatible">
+                        <input type="radio" id="no_children" name="inlineRadioOptions" value="no">
                         <label class="h5" for="child_compatibility"><b><i>No</i></b>, keep that rug rat way from me with their sticky hands!</label><br>
                     </form>
                 </section>
@@ -221,17 +222,20 @@
                 <div class="w-100"></div>
                 <section class="row">
                     <form>
-                        <input type="radio" id="short" name="inlineRadioOptions" value="Short Hair">
+                        <input type="radio" id="short_hair" name="inlineRadioOptions" value="short">
                         <label class="h5" for="fur_length"><b><i>Shorthair</i></b></label><br>
                         
-                        <input type="radio" id="long" name="inlineRadioOptions" value="Long Hair">
+                        <input type="radio" id="long_hair" name="inlineRadioOptions" value="long">
                         <label class="h5" for="fur_length"><b><i>Longhair</i></b></label><br>
                         
-                        <input type="radio" id="all" name="inlineRadioOptions" value="Short or Long Hair">
+                        <input type="radio" id="all_hair" name="inlineRadioOptions" value="medium">
                         <label class="h5" for="fur_length"><b><i>Shorthair or Longhair</i></b></label><br>
 
-                        <input type="radio" id="no_hair" name="inlineRadioOptions" value="No Hair">
+                        <input type="radio" id="no_hair" name="inlineRadioOptions" value="no_hair">
                         <label class="h5" for="fur_length"><b><i>No fur please!</i></b> </label><br>
+                    
+                    <input type="radio" id="no_preference_hair" name="inlineRadioOptions" value="all">
+                        <label class="h5" for="fur_length"><b><i>No Preference!</i></b> </label><br>
                     </form>
                 </section>
             </section>
@@ -244,32 +248,30 @@
                 <div class="w-100"></div>
                 <section class="row">
                     <form>
-                        <input type="radio" id="black" name="inlineRadioOptions" value="Black Fur">
+                        <input type="radio" id="black_color" name="inlineRadioOptions" value="black">
                         <label class="h5" for="color"><b><i>Black Fur</i></b></label><br>
                         
-                        <input type="radio" id="white" name="inlineRadioOptions" value="White Fur">
+                        <input type="radio" id="white_color" name="inlineRadioOptions" value="white">
                         <label class="h5" for="color"><b><i>White Fur</i></b></label><br>
 
-                        <input type="radio" id="blue" name="inlineRadioOptions" value="Blue-Gray Fur">
+                        <input type="radio" id="blue_color" name="inlineRadioOptions" value="blue">
                         <label class="h5" for="color"><b><i>Blue/Gray Fur</i></b></label><br>
 
-                        <input type="radio" id="red" name="inlineRadioOptions" value="Red Ginger Fur">
+                        <input type="radio" id="red_color" name="inlineRadioOptions" value="red">
                         <label class="h5" for="color"><b><i>Red/Ginger Fur</i></b></label><br>
 
-                        <input type="radio" id="cream" name="inlineRadioOptions" value="Cream Fur">
+                        <input type="radio" id="cream_color" name="inlineRadioOptions" value="cream">
                         <label class="h5" for="color"><b><i>Cream Fur</i></b> </label><br>
 
-                        <input type="radio" id="brown" name="inlineRadioOptions" value="Brown Fur">
+                        <input type="radio" id="brown_color" name="inlineRadioOptions" value="brown">
                         <label class="h5" for="color"><b><i>Brown Fur</i></b> </label><br>
 
                         {{!-- If chosen, options will be offered in the description as to what color these breeds come in --}}
-                        <input type="radio" id="no_preference" name="inlineRadioOptions" value="No Preference">
+                        <input type="radio" id="no_preference_color" name="inlineRadioOptions" value="no_preference">
                         <label class="h5" for="color"><b><i>No Preference</i></b>, I love all cats!</label><br>
                     </form>
                 </section>
             </section>
-
-    <section class="section_questions pb-4"></section>
     </main>
     <section id="section_cats_for_you" class="container mt-5 hide">
         
