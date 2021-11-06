@@ -146,11 +146,15 @@ const get_inputs = async () =>{
         for(i = 0; i < cats.length; i++){
             if( cats[i].hypo_allergenic == inputs_picked[0] && 
                 cats[i].grooming_frequency == inputs_picked[1] &&
-                cats[i].like_children == inputs_picked[2] &&
+                cats[i].energy_level == inputs_picked[2] &&
                 cats[i].outdoor_indoor == inputs_picked[3] &&
-                cats[i].energy_level == inputs_picked[4] && 
-                cats[i].affectionate == inputs_picked[5] &&
-                cats[i].independence == inputs_picked[6]
+                cats[i].playful_pref == inputs_picked[4] && 
+                cats[i].affection_level == inputs_picked[5] &&
+                cats[i].like_dog == inputs_picked[6] &&
+                cats[i].like_cat == inputs_picked[7] &&
+                cats[i].like_children == inputs_picked[8] && 
+                cats[i].fur_length == inputs_picked[9] &&
+                cats[i].fur_color == inputs_picked[10]
                 ){
                     cats_for_user.push(cats[i])
             }
