@@ -56,45 +56,69 @@ const brown_color = document.querySelector('#brown_color');
 const cream_color = document.querySelector('#cream_color');
 const no_color_preference = document.querySelector('#no_color_preference');
 
-// Twelfth Question
+// Twelfth Question - vet needs
 const yes_vet = document.querySelector('#yes_vet');
 const no_vet = document.querySelector('#no_vet');
 const no_recommendations_vet = document.querySelector('#no_recommendations_vet');
 
 const inputs = [
-    // First Question
-    yes_allergenic,
-    no_allergenic,
-    // Second Question
-    minimal,
-    once_per_week,
-    // Third Question
-    yes_children,
-    no_children,
-    // Forth Question
-    outdoor,
-    indoor,
-    // fifth Question
-    very_energetic,
-    docile,
-    // sixth Question
-    yes_affection,
-    no_affection,
-    // seventh Question
-    yes_alone,
-    no_alone,
-    // eighth Question
-    // black_color,
-    // white_color,
-    // blue_color,
-    // red_color,
-    // no_color_preference,
-    // brown_color,
-    // tabby_color,
-    // ninth Question
-    yes_vet,
-    no_vet,
-    no_recommendations_vet
+// First Question - hypoallergenic
+allergic,
+non_allergenic,
+non_allergenic,
+
+// Second Question - grooming needs
+weekly,
+monthly,
+periodically,
+
+// Third Question - energy level
+energetic,
+non_energetic,
+
+// Forth Question - playful preference
+playful,
+non_playful,
+
+// Fifth Question - affection preference
+affection,
+non_affection,
+
+// Sixth Question - independence preference
+independent,
+needy,
+
+// Seventh Question - cats preference for a dog in the home
+yes_dog,
+no_dog, 
+
+// Eighth Question - cats preference for another cat in the home
+yes_cat,
+no_cat, 
+
+//Ninth Question - cats preference for children in the home
+yes_children,
+no_children, 
+
+// Tenth Question - fur length preference
+short_hair,
+long_hair,
+no_hair,
+all_hair,
+
+// Eleventh Question - color preference
+no_color_preference,
+white_color, 
+black_color,
+red_color,
+blue_color,
+cream_color,
+brown_color,
+
+// Twelfth Question - vet needs
+yes_vet,
+no_vet,
+no_recommendations_vet
 ]
 
 const inputs_picked = []
