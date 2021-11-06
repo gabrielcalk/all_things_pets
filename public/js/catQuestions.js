@@ -160,10 +160,8 @@ const get_inputs = async () =>{
             }
         }
         if (cats_for_user.length == 0){
-            console.log('No Cats For You')
+            alert('No Cats For You')
         } 
-
-        console.log(cats_for_user)
 
         for(i = 0; i < cats_for_user.length; i++){
             const h3_cat_name = document.createElement('h3');

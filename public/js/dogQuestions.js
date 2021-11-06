@@ -189,7 +189,7 @@ const otherDogs_array = [];
 const strangers_array = [];
 const grooming_array = [];
 const trainable_array = [];
-const barking_array = [];
+const final_array = [];
 
 
 
@@ -263,7 +263,11 @@ const get_inputs = async () =>{
     })
     .then((response) => response.json())
     .then((dogs) => {
+        main_questions.classList.add('hide');
+        footer_questions.classList.add('hide');
+        section_dogs_for_you.classList.remove('hide')
 
+// searching for user inputs dog breeds
         inputs_picked_1.forEach(function(user_choose){
             for (i = 0; i < dogs.length; i++){
                 if (dogs[i].breedGroup.trim() == user_choose){
@@ -272,6 +276,7 @@ const get_inputs = async () =>{
             }
         });
 
+// searching for user inputs size
         inputs_picked_2.forEach(function(user_choose){
             for (i = 0; i < breedGroup_array.length; i++){
                 if (breedGroup_array[i].size.trim() == user_choose){
@@ -280,6 +285,7 @@ const get_inputs = async () =>{
             }
         });
 
+// searching for user input energy
         inputs_picked_3.forEach(function(user_choose){
             for (i = 0; i < size_array.length; i++){
                 if (size_array[i].energy == user_choose){
@@ -288,9 +294,90 @@ const get_inputs = async () =>{
             }
         });
 
-        console.log(breedGroup_array)
-        console.log(size_array)
-        console.log(energy_array)
+// searching for user input children
+        inputs_picked_4.forEach(function(user_choose){
+            for (i = 0; i < energy_array.length; i++){
+                if (energy_array[i].children == user_choose){
+                    children_array.push(energy_array[i])
+                }
+            }
+        });
+
+// searching for user input protective
+        inputs_picked_5.forEach(function(user_choose){
+            for (i = 0; i < children_array.length; i++){
+                if (children_array[i].protective == user_choose){
+                    protective_array.push(children_array[i])
+                }
+            }
+        });
+
+// searching for user input other dogs
+        inputs_picked_6.forEach(function(user_choose){
+            for (i = 0; i < protective_array.length; i++){
+                if (protective_array[i].otherDogs == user_choose){
+                    otherDogs_array.push(protective_array[i])
+                }
+            }
+        });
+
+// searching for user input stranger
+        inputs_picked_7.forEach(function(user_choose){
+            for (i = 0; i < otherDogs_array.length; i++){
+                if (otherDogs_array[i].strangers == user_choose){
+                    strangers_array.push(otherDogs_array[i])
+                }
+            }
+        });
+
+// searching for user input grooming
+        inputs_picked_8.forEach(function(user_choose){
+            for (i = 0; i < strangers_array.length; i++){
+                if (strangers_array[i].grooming == user_choose){
+                    grooming_array.push(strangers_array[i])
+                }
+            }
+        });
+
+// searching for user input trainable
+        inputs_picked_9.forEach(function(user_choose){
+            for (i = 0; i < grooming_array.length; i++){
+                if (grooming_array[i].trainable == user_choose){
+                    trainable_array.push(grooming_array[i])
+                }
+            }
+        });
+
+// searching for user input barking
+        inputs_picked_10.forEach(function(user_choose){
+            for (i = 0; i < trainable_array.length; i++){
+                if (trainable_array[i].barking == user_choose){
+                    final_array.push(trainable_array[i])
+                }
+            }
+        });
+
+        if (final_array.length == 0){
+            alert('No Dog For You')
+        } 
+
+        for(i = 0; i < final_array.length; i++){
+            const h3_dog_name = document.createElement('h3');
+            const p_dog_descr = document.createElement('p');
+            const section_dogs_text = document.createElement('section')
+            const section_dog_all = document.createElement('section')
+            
+            h3_dog_name.textContent = final_array[i].breedName;
+            p_dog_descr.textContent = final_array[i].description;
+
+            section_dogs_text.append(h3_dog_name);
+            section_dogs_text.append(p_dog_descr);
+
+            section_dog_all.append(section_dogs_text)
+
+            section_dog_all.classList.add('d-flex', 'justify-content-center', 'align-items-center')
+            section_dogs_for_you.append(section_dog_all)
+        }
     })
 }
 
