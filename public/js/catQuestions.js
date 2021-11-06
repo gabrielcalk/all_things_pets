@@ -169,7 +169,8 @@ const get_inputs = async () =>{
             const img_cat = document.createElement('img')
             const section_cats_text = document.createElement('section')
             const section_cat_all = document.createElement('section')
-            
+            const hr = document.createElement('hr')
+
             h3_cat_name.textContent = cats_for_user[i].breed;
             p_cat_descr.textContent = cats_for_user[i].description;
             img_cat.src = cats_for_user[i].images;
@@ -180,10 +181,12 @@ const get_inputs = async () =>{
             section_cat_all.append(img_cat);
             section_cat_all.append(section_cats_text)
 
-            section_cat_all.classList.add('d-flex', 'justify-content-center', 'align-items-center')
+            section_cat_all.classList.add('d-flex', 'my-2', 'justify-content-center', 'align-items-center')
             img_cat.classList.add('cat_image')
 
             section_cats_for_you.append(section_cat_all)
+            section_cats_for_you.append(hr)
+            section_cats_for_you.classList.add('my-2')
         }
     });
 };

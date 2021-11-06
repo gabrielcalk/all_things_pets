@@ -366,17 +366,31 @@ const get_inputs = async () =>{
             const p_dog_descr = document.createElement('p');
             const section_dogs_text = document.createElement('section')
             const section_dog_all = document.createElement('section')
+            const ul_info = document.createElement('ul')
+            const li_life = document.createElement('li')
+            const li_weight = document.createElement('li')
+            const li_height = document.createElement('li')
+            const hr = document.createElement('hr')
+
+            h3_dog_name_trim = final_array[i].breedName.trim()
+            h3_dog_name.textContent = h3_dog_name_trim.charAt(0).toUpperCase() + h3_dog_name_trim.slice(1);
+            p_dog_descr.textContent = `Description: ${final_array[i].description}`;
             
-            h3_dog_name.textContent = final_array[i].breedName;
-            p_dog_descr.textContent = final_array[i].description;
+            li_life.textContent = final_array[i].life
+            li_weight.textContent = final_array[i].weight
+            li_height.textContent = final_array[i].height
 
             section_dogs_text.append(h3_dog_name);
             section_dogs_text.append(p_dog_descr);
+            ul_info.append(li_life, li_weight, li_height)
 
             section_dog_all.append(section_dogs_text)
 
-            section_dog_all.classList.add('d-flex', 'justify-content-center', 'align-items-center')
+            section_dog_all.classList.add('my-2')
             section_dogs_for_you.append(section_dog_all)
+            section_dogs_for_you.append(ul_info)
+            section_dogs_for_you.append(hr)
+            section_dogs_for_you.classList.add('my-2')
         }
     })
 }
