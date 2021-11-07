@@ -14,6 +14,9 @@ Dogs.init(
         breedName: {
             type: DataTypes.STRING,
         },
+        image:{
+            type: DataTypes.STRING,
+        },
         breedGroup: {
             type: DataTypes.STRING,
             allowNull: false

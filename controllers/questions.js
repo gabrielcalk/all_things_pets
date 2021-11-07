@@ -31,7 +31,7 @@ questionsRouter.get('/cat', (req, res) =>{
         layout:false})
 });
 
-questionsRouter.post('/cat/data', async (req, res) =>{
+questionsRouter.get('/cat/data', async (req, res) =>{
     try{
         // if(!req.session.logged_in){
         //     res.redirect('/login')

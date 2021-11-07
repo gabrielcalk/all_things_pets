@@ -46,6 +46,7 @@ const short_hair = document.querySelector('#short_hair');
 const long_hair = document.querySelector('#long_hair');
 const all_hair = document.querySelector('#all_hair');
 const no_hair = document.querySelector('#no_hair');
+const no_preference_hair = document.querySelector('#no_preference_hair');
 
 // Eleventh Question - color preference
 const black_color = document.querySelector('#black_color');
@@ -54,7 +55,7 @@ const blue_color = document.querySelector('#blue_color');
 const red_color = document.querySelector('#red_color');
 const brown_color = document.querySelector('#brown_color');
 const cream_color = document.querySelector('#cream_color');
-const no_color_preference = document.querySelector('#no_color_preference');
+const no_preference_color = document.querySelector('#no_preference_color');
 
 const inputs = [
 // First Question - hypoallergenic
@@ -100,6 +101,7 @@ short_hair,
 long_hair,
 all_hair,
 no_hair,
+no_preference_hair,
 
 // Eleventh Question - color preference
 black_color,
@@ -108,7 +110,7 @@ blue_color,
 red_color,
 brown_color,
 cream_color,
-no_color_preference
+no_preference_color
 ]
 
 const inputs_picked = []
@@ -121,30 +123,31 @@ const get_inputs = async () =>{
         }
     }
     const res = await fetch('/questions/cat/data', {
-        method: 'POST',
-        body: JSON.stringify({inputs_picked}),
+        method: 'GET',
         headers: {
             'Content-Type': 'application/json',
         },
     })
     .then((response) => response.json())
     .then((cats) => {
+        console.log(cats)
+        console.log(inputs_picked)
         main_questions.classList.add('hide');
         footer_questions.classList.add('hide');
         section_cats_for_you.classList.remove('hide')
 
         for(i = 0; i < cats.length; i++){
-            if( cats[i].hypo_allergenic == inputs_picked[0] && 
-                cats[i].grooming_frequency == inputs_picked[1] &&
-                cats[i].energy_level == inputs_picked[2] &&
-                cats[i].outdoor_indoor == inputs_picked[3] &&
-                cats[i].playful_pref == inputs_picked[4] && 
-                cats[i].affection_level == inputs_picked[5] &&
-                cats[i].like_dog == inputs_picked[6] &&
-                cats[i].like_cat == inputs_picked[7] &&
-                cats[i].like_children == inputs_picked[8] && 
+            if( cats[i].hypoallergenic == inputs_picked[0] && 
+                cats[i].grooming == inputs_picked[1] &&
+                cats[i].energy == inputs_picked[2] &&
+                cats[i].playful == inputs_picked[3] &&
+                cats[i].affection == inputs_picked[4] && 
+                cats[i].independence == inputs_picked[5] &&
+                cats[i].dog_compatibility == inputs_picked[6] &&
+                cats[i].cat_compatibility == inputs_picked[7] &&
+                cats[i].child_compatibility == inputs_picked[8] && 
                 cats[i].fur_length == inputs_picked[9] &&
-                cats[i].fur_color == inputs_picked[10]
+                cats[i].color== inputs_picked[10]
                 ){
                     cats_for_user.push(cats[i])
             }
@@ -161,9 +164,9 @@ const get_inputs = async () =>{
             const section_cat_all = document.createElement('section')
             const hr = document.createElement('hr')
 
-            h3_cat_name.textContent = cats_for_user[i].breed;
+            h3_cat_name.textContent = cats_for_user[i].Breed;
             p_cat_descr.textContent = cats_for_user[i].description;
-            img_cat.src = cats_for_user[i].images;
+            img_cat.src = cats_for_user[i].image;
 
             section_cats_text.append(h3_cat_name);
             section_cats_text.append(p_cat_descr);
@@ -179,6 +182,7 @@ const get_inputs = async () =>{
             section_cats_for_you.classList.add('my-2')
         }
     });
-};
+}
+
 
 find_cat.addEventListener('click', get_inputs)
