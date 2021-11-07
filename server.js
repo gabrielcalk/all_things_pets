@@ -72,6 +72,6 @@ app.use((req,res) =>{
     res.sendFile(path.join(__dirname, './public', '/html', '404page.html'))
 })
 
-sequelize.sync({ force: true }).then(() => {
+sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log(`Now listening on PORT: ${PORT}: http://localhost:${PORT}`))
 });

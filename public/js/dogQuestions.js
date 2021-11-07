@@ -364,6 +364,7 @@ const get_inputs = async () =>{
         for(i = 0; i < final_array.length; i++){
             const h3_dog_name = document.createElement('h3');
             const p_dog_descr = document.createElement('p');
+            const img_dog = document.createElement('img')
             const section_dogs_text = document.createElement('section')
             const section_dog_all = document.createElement('section')
             const ul_info = document.createElement('ul')
@@ -372,10 +373,11 @@ const get_inputs = async () =>{
             const li_height = document.createElement('li')
             const hr = document.createElement('hr')
 
-            h3_dog_name_trim = final_array[i].breedName.trim()
+            const h3_dog_name_trim = final_array[i].breedName.trim()
             h3_dog_name.textContent = h3_dog_name_trim.charAt(0).toUpperCase() + h3_dog_name_trim.slice(1);
             p_dog_descr.textContent = `Description: ${final_array[i].description}`;
-            
+            img_dog.src = final_array[i].image
+
             li_life.textContent = final_array[i].life
             li_weight.textContent = final_array[i].weight
             li_height.textContent = final_array[i].height
@@ -385,7 +387,9 @@ const get_inputs = async () =>{
             ul_info.append(li_life, li_weight, li_height)
 
             section_dog_all.append(section_dogs_text)
+            section_dog_all.append(img_dog)
 
+            img_dog.classList.add('dog_image')
             section_dog_all.classList.add('my-2')
             section_dogs_for_you.append(section_dog_all)
             section_dogs_for_you.append(ul_info)
