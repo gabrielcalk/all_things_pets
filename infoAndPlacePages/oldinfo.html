@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Things Pets</title>
+    <link rel="icon" type="image/png" href="images/logo_dog.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/info.css" />
+</head>
+
+<header class="p-1 d-flex align-items-center justify-content-between">
+    <a href="/"><img class="logo" src="./images/logo_dog.png" /></a>
+    <h1>All Things Pets</h1>
+    <a href="/"><img class="logo" src="./images/logo_cat.png" /></a>
+</header>
+
+<body>
+
+
+    <!-- animated dog being used from https://codepen.io/chrisgannon/pen/OMomWJ -->
+    <main style="border-top: 4px solid">
+        <div class="container">
+            <aside class="d-flex justify-content-center mt-4">
+                <h2>What would you like to do today?</h2>
+                <br />
+            <br />
+            <div>
+                <svg class="dogSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+                    <defs>
+                        <clipPath id="mainMask">
+                            <rect id="bg" width="100vw" height="90vh" rx="0" ry="0" fill="none" />
+                        </clipPath>
+                    </defs>
+                    <use xlink:href="#bg" />
+                    <g id="dogGroup">
+                        <rect id="earL" x="207" y="220" width="31" height="187" rx="15" ry="15" fill="#5b3514" />
+                        <rect id="earR" x="361" y="220.94" width="31" height="187" rx="15.7" ry="15.7"
+                                fill="#5b3514" />
+                            <ellipse id="head" cx="301" cy="285" rx="86" ry="94" fill="#9e5d24" />
+                            <rect id="earLTOP" x="207" y="220" width="31" height="187" rx="15" ry="15" fill="#5b3514" />
+                            <rect id="earRTOP" x="361" y="220.94" width="31" height="187" rx="15.7" ry="15.7"
+                                fill="#5b3514" />
+                            <rect id="snout" x="239" y="294" width="121" height="84.98" rx="42" ry="42"
+                                fill="#d88e5a" />
+                            <g id="nose">
+                                <rect x="276" y="325" width="46" height="23" rx="11" ry="11" fill="#443F43" />
+                                <path id="noseShine" fill="none" stroke="#AAABAF" stroke-width="4"
+                                    stroke-linecap="round" d="
+                                    M282.1,337.7L282.1,337.7c0-4.2,3.4-7.6,7.6-7.6h20.4c4.2,0,7.6,3.4,7.6,7.6l0,0" />
+                            </g>
+                            <!-- <rect id="noseShine" x="306" y="331" width="6" height="6" rx="3" ry="3" fill="#ededed"/> -->
+                            <g id="browGroup" stroke="#443F43" stroke-linecap="round">
+                                <line id="browL" x1="250" y1="253" x2="290" y2="253" fill="none" stroke-miterlimit="10"
+                                    stroke-width="7" />
+                                <line id="browR" x1="309" y1="253" x2="349" y2="253" fill="none" stroke-miterlimit="10"
+                                    stroke-width="7" />
+                            </g>
+                            <g id="eyeGroup" fill="#443F43">
+                                <g id="eyeSpinL">
+                                    <ellipse id="eyeL" class="eye" cx="270" cy="285" rx="7" ry="7" />
+                                </g>
+                                <g id="eyeSpinR">
+                                    <ellipse id="eyeR" class="eye" cx="329" cy="285" rx="7" ry="7" />
+                                </g>
+                            </g>
+                        </g>
+                        <g clip-path="url(#mainMask)">
+                            <path id="bone" stroke="#AAABAD" stroke-width="4" fill="#696a6c"
+                                d="M108,28c7.7,0,14-6.3,14-14s-6.3-14-14-14S94,6.3,94,14H28c0-7.7-6.3-14-14-14S0,6.3,0,14s6.3,14,14,14
+                                C6.3,28,0,34.3,0,42s6.3,14,14,14s14-6.3,14-14h66c0,7.7,6.3,14,14,14s14-6.3,14-14S115.7,28,108,28z" />
+                        </g>
+                    </svg>
+                </div>
+
+                <a class="m-3" id="park"><button>Have fun at a Park</button></a>
+                <a class="m-3" id="bakery" href="/name/add_name"><button>Get a treat at a Bakery</button></a>
+                <a class="m-3" id="restaurant"><button>Find a Restaurant</button></a>
+                <a class="m-3" id="vet"><button>Go to a Vet</button></a>
+                <a class="m-3" id="boarding"><button>Find a place to Board</button></a>
+                <a class="m-3" id="groomTrain"><button>Get some Grooming or Training</button></a>
+                <a class="m-3" id="hotel"><button>Stay in a Hotel</button></a>
+                <a class="m-3" id="retail"><button>Go Shopping</button></a>
+                <a class="m-3" id="rescue"><button>Find a new Forever Friend</button></a>
+                <a class="m-3" id="homeServices"><button>Get someone to come to my home</button></a>
+                <a class="m-3" id="campground"><button>Go Camping</button></a>
+                <a class="m-3" id="beach"><button>Spend a day at the Beach</button></a>
+            </div>
+        </aside>
+    </main>
+    <script src="./js/boneCurser.js"></script>
+</body>
+</html>
