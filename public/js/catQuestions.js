@@ -5,8 +5,8 @@ const section_cats_for_you = document.querySelector('#section_cats_for_you');
 
 // First Question - hypoallergenic
 const allergic = document.querySelector('#allergic');
-const non_allergenic = document.querySelector('#non_allergenic');
 const no_pref_allergenic = document.querySelector('#no_pref_allergenic');
+const non_allergenic = document.querySelector('#non_allergenic');
 
 // Second Question - grooming needs
 const weekly = document.querySelector('#weekly');
@@ -56,15 +56,10 @@ const brown_color = document.querySelector('#brown_color');
 const cream_color = document.querySelector('#cream_color');
 const no_color_preference = document.querySelector('#no_color_preference');
 
-// Twelfth Question - vet needs
-const yes_vet = document.querySelector('#yes_vet');
-const no_vet = document.querySelector('#no_vet');
-const no_recommendations_vet = document.querySelector('#no_recommendations_vet');
-
 const inputs = [
 // First Question - hypoallergenic
 allergic,
-non_allergenic,
+no_pref_allergenic,
 non_allergenic,
 
 // Second Question - grooming needs
@@ -103,22 +98,17 @@ no_children,
 // Tenth Question - fur length preference
 short_hair,
 long_hair,
-no_hair,
 all_hair,
+no_hair,
 
 // Eleventh Question - color preference
-no_color_preference,
-white_color, 
 black_color,
+white_color,
+blue_color, 
 red_color,
-blue_color,
-cream_color,
 brown_color,
-
-// Twelfth Question - vet needs
-yes_vet,
-no_vet,
-no_recommendations_vet
+cream_color,
+no_color_preference
 ]
 
 const inputs_picked = []
