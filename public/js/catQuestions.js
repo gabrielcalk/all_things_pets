@@ -48,15 +48,6 @@ const all_hair = document.querySelector('#all_hair');
 const no_hair = document.querySelector('#no_hair');
 const no_preference_hair = document.querySelector('#no_preference_hair');
 
-// Eleventh Question - color preference
-const black_color = document.querySelector('#black_color');
-const white_color = document.querySelector('#white_color');
-const blue_color = document.querySelector('#blue_color');
-const red_color = document.querySelector('#red_color');
-const brown_color = document.querySelector('#brown_color');
-const cream_color = document.querySelector('#cream_color');
-const no_preference_color = document.querySelector('#no_preference_color');
-
 const inputs = [
 // First Question - hypoallergenic
 allergic,
@@ -101,16 +92,7 @@ short_hair,
 long_hair,
 all_hair,
 no_hair,
-no_preference_hair,
-
-// Eleventh Question - color preference
-black_color,
-white_color,
-blue_color, 
-red_color,
-brown_color,
-cream_color,
-no_preference_color
+no_preference_hair
 ]
 
 const inputs_picked = []
@@ -146,8 +128,7 @@ const get_inputs = async () =>{
                 cats[i].dog_compatibility == inputs_picked[6] &&
                 cats[i].cat_compatibility == inputs_picked[7] &&
                 cats[i].child_compatibility == inputs_picked[8] && 
-                cats[i].fur_length == inputs_picked[9] &&
-                cats[i].color== inputs_picked[10]
+                cats[i].fur_length == inputs_picked[9]
                 ){
                     cats_for_user.push(cats[i])
             }

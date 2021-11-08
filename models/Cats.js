@@ -35,7 +35,6 @@ Cats.init(
         },
         energy: {
             type: DataTypes.STRING,
-            allowNull: false,
         },
         playful: {
             type: DataTypes.STRING,
