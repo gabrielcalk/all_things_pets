@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 3001;
 // const hbs = exphbs.create({ helpers });
 
 const sess = {
-    secret: 'Secret Secret',
+    secret: process.env.SESS_SECRET,
     cookie: {
         // Stored in milliseconds (60000 === 1 minute)
         //Store for 15 Minutes
