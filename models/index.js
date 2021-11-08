@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Cats = require("./Cats1");
+const Cats = require("./cats");
 const Dogs = require("./dogs");
 const dognames = require("./dognames")
 const catnames = require("./catnames")
