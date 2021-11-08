@@ -95,9 +95,7 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
 
 ## Connections
 
-
-
-All Things Pets Homepage
+All Things Pets Homepage and layout of how website is designed.
 
 	  I Already Have A Pet
 
