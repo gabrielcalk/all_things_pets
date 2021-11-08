@@ -97,6 +97,8 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
 ## Problems
 
 * We weren't able to find a api that had the information we were looking for so we had to manually input each line of the database from pet websites in order to use the data we need to create the correct information needed to solve our problem.
+
+* Getting dog question user to be able to select more than one option. Was a fairly difficult task.
   
 * Connecting to heroku database. We had to troubleshoot the Heroku log in order to correct case sensitive data folder that github ignored when it was pushed.
 
