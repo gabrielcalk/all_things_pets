@@ -9,6 +9,10 @@ const Catnames = require('../models/catnames');
  */
 nameRouter.get('/', async(req, res) =>{
     try{
+        if(!req.session.logged_in){
+            res.redirect('/login')
+            return
+        }
         res.render('name')
     }catch(err){
         res.status(500).json(err)
@@ -17,6 +21,10 @@ nameRouter.get('/', async(req, res) =>{
 
 nameRouter.get('/add_name', async(req, res) =>{
     try{
+        if(!req.session.logged_in){
+            res.redirect('/login')
+            return
+        }
         res.render('add_name');
     }catch(err){
         res.status(500).json(err)
@@ -25,6 +33,10 @@ nameRouter.get('/add_name', async(req, res) =>{
 
 nameRouter.post('/add_name', async(req, res) =>{
     try{
+        if(!req.session.logged_in){
+            res.redirect('/login')
+            return
+        }
         const {name_pet_input_up, gender_input} = req.body
        if(req.body.type_input == 'cat'){
             const cats_name = await CatNames.findOne({

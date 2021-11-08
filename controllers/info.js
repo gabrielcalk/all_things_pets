@@ -1,23 +1,20 @@
 const infoRouter = require('express').Router()
+const path = require('path')
 
 infoRouter.get('/', (req, res) =>{
+    if(!req.session.logged_in){
+        res.redirect('/login')
+        return
+    }
     res.render('info')
 })
 
-infoRouter.get('/fun-places', (req, res) =>{
-    res.send('Fun Places Page')
-})
-
-infoRouter.get('/vets', (req, res) =>{
-    res.send('Vet Page')
-})
-
-infoRouter.get('/daycare', (req, res) =>{
-    res.send('Daycar Page')
-})
-
-infoRouter.get('/training', (req, res) =>{
-    res.send('training Page')
+infoRouter.get('/places', (req, res) =>{
+    if(!req.session.logged_in){
+        res.redirect('/login')
+        return
+    }
+    res.sendFile(path.join(__dirname, '../infoAndPlacePages', 'places.html'))
 })
 
 module.exports = infoRouter;
