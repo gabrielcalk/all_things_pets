@@ -1,0 +1,407 @@
+:root{
+    --color1: #24374b;
+    --color2: #c8a56f;
+    --color3: #f6f6f6;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;;
+}
+
+body{
+    background-origin: content-box;
+    background-position-y: -25px;
+    background-position-x: 70px;
+}
+
+header{
+    background-color: var(--color1);
+}
+
+h1{
+    font-size: 2.8vw;
+    font-weight: 700;
+    background: -webkit-linear-gradient(var(--color2), var(--color3));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2{
+    font-size: 45px;
+    color: var(--color2);
+    font-weight: 700;
+}
+
+h3{
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+label{
+    color: var(--color3)
+}
+
+a{
+    text-decoration: none;
+    color: var(--color2);
+    font-weight: 700;
+}
+
+a:hover{
+    color: var(--color3);
+}
+
+input{
+    height: 35px;
+}
+
+button{
+    background-color: var(--color3);
+    padding: 8px;
+    border-radius: 15px;
+    color: var(--color1);
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
+.logo{
+    width: 5vw;
+    height: 5vw;
+}
+
+.signup-form{
+    background-color: var(--color1);
+    height: 370px;
+    width: 430px;
+    border-radius: 25px;
+    margin-top: 115px;
+}
+
+#signup_title{
+    background-color: var(--color2);
+    border-top-left-radius: 18px;
+    border-top-right-radius: 19px;
+    color: var(--color1);
+}
+
+
+.infoButtons {
+    margin-top: 60px;
+}
+
+#park {
+    position: absolute;
+    right: 82vw;
+    top: 9vh;
+    width: 200px;
+    height: 10px;
+}
+  
+#bakery {
+    position: absolute;
+    right: 57vw;
+    width: 200px;
+    height: 10px;
+}
+
+#restaurant {
+    position: absolute;
+    right: 30vw;
+    width: 200px;
+    height: 10px;
+}
+
+#vet {
+    position: absolute;
+    right: 30vw;
+    top: 72vh;
+    width: 200px;
+    height: 10px;
+}
+
+#boarding {
+    position: absolute;
+    right: 30vw;
+    top: 45vh;
+    width: 200px;
+    height: 10px;
+}
+
+#groomTrain {
+    position: absolute;
+    right: 82vw;
+    top: 69vh;
+    width: 200px;
+    height: 10px;
+}
+
+#hotel {
+    position: absolute;
+    right: 57vw;
+    top: 72vh;
+    width: 200px;
+    height: 10px;
+}
+
+#retail {
+    position: absolute;
+    right: 82vw;
+    top: 39vh;
+    width: 200px;
+    height: 200px;
+}
+
+#rescue {
+    position: absolute;
+    right: 5vw;
+    top: 39vh;
+    width: 200px;
+    height: 10px;
+}
+
+#campground {
+    position: absolute;
+    right: 57vw;
+    top: 45vh;
+    width: 200px;
+    height: 10px;
+}
+
+#beach {
+    position: absolute;
+    right: 5vw;
+    top: 9vh;
+    width: 200px;
+    height: 10px;
+}
+
+#homeServices {
+    position: absolute;
+    right: 5vw;
+    top: 69vh;
+    width: 200px;
+    height: 10px;
+}
+  
+a{
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: 700;
+}
+
+a:hover{
+    color: var(--color1);
+}
+
+button{
+    background-color: var(--color3);
+    padding: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
+button img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.button_section{
+    width: 40%;
+}
+
+
+.section_button_find{
+    background-color: var(--color1);
+}
+
+.section_questions{
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+
+@media only screen and (max-width: 1815px) {
+    .button_section{
+        width: 42%;
+    }
+}
+
+@media only screen and (max-width: 1722px) {
+    .button_section{
+        width: 44%;
+    }
+}
+
+@media only screen and (max-width: 1645px) {
+    .button_section{
+        width: 46%;
+    }
+}
+
+@media only screen and (max-width: 1574px) {
+    .button_section{
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 1508px) {
+    .button_section{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1460px) {
+    .button_section{
+        width: 52%;
+    }
+}
+
+@media only screen and (max-width: 1408px) {
+    .button_section{
+        width: 54%;
+    }
+}
+
+@media only screen and (max-width: 1368px) {
+    .button_section{
+        width: 56%;
+    }
+}
+
+@media only screen and (max-width: 1308px) {
+    .button_section{
+        width: 58%;
+    }
+}
+
+@media only screen and (max-width: 1268px) {
+    .button_section{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1208px) {
+    .button_section{
+        width: 62%;
+    }
+}
+
+@media only screen and (max-width: 1168px) {
+    .button_section{
+        width: 64%;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .button_section{
+        width: 66%;
+    }
+}
+
+@media only screen and (max-width: 1098px) {
+    .button_section{
+        width: 68%;
+    }
+}
+
+@media only screen and (max-width: 1065px) {
+    .button_section{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1034px) {
+    .button_section{
+        width: 72%;
+    }
+}
+
+@media only screen and (max-width: 1006px) {
+    .button_section{
+        width: 74%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .button_section{
+        width: 76%;
+    }
+}
+
+@media only screen and (max-width: 953px) {
+    .button_section{
+        width: 78%;
+    }
+}
+
+@media only screen and (max-width: 928px) {
+    .button_section{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 905px) {
+    .button_section{
+        width: 82%;
+    }
+}
+
+@media only screen and (max-width: 883px) {
+    .button_section{
+        width: 84%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 650px) {
+    .signup-form{
+        height: 340px;
+        width: 290px;
+    }
+    h1{
+        font-size: 5vw;
+        margin-top: 10px;
+    }
+    .logo{
+        width: 8vw;
+        height: 8vw;
+    }
+}
