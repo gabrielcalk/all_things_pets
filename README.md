@@ -16,7 +16,6 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
   * [Implementation](#implementation)
   * [Usage](#usage) 
   * [Installation](#installation)  
-  * [Test](#test)
   * [Problems](#problems)
   * [Connections](#connections)
   * [Visualization](#visualization)
@@ -76,8 +75,18 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
  
 ![mysql](./images/mysql.png) ![sequelize](./images/sequelize.png)
 
-* In order to connect to our database we used the npm package sequelize. This allowed us to seed our data into the sql table database. This was done via the GET and POST routes via Express/
+* In order to connect to our database we used the npm package sequelize. This allowed us to seed our data into the sql table database. This was done via the GET and POST routes via Express.
 
+* There were a couple new technologies utilized in this group project.
+
+![anime js](images/anime.jpg)
+
+* Anime JS allowed us to header animation to our site. We plan to go in later into our project utilize this ability more on the page to give it a less static feel.
+
+* [Beautify Tools](https://beautifytools.com/excel-to-json-converter.php) was also utilized to convert the data from the excel spreadsheet into a JSON. The subject matter for our project was so specific we researched our data from various petsites to create our own API. This was definitely a challenge but a exellent one.
+
+* Technologies used for this project were Express, Express Session, Sequelize, Node, AnimeJS, Beautify tools, and handlebarsjs. 
+   
 ## Installation
   
 * npm i  
@@ -198,11 +207,8 @@ All Things Pets Homepage and layout of how website is designed.
 				            Pet Rock
 404 Page
 
+Connection Map Bellow is connection map of how the websit is laid out and information was gathered in the research process.
 
-
-
-
-Connection Map
 ![connection map](./images/connection-map.png)
 
 
@@ -232,9 +238,6 @@ Mockup for locations boarding and training
 mockup 404 page
 ![404](images/404%20page.png)
 
-## Acknowledgements
-
-## Contributions
 
 ## Resources
  
