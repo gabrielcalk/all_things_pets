@@ -17,29 +17,47 @@ Dogs.init(
         image:{
             type: DataTypes.STRING,
         },
-        breedGroup: {
-            type: DataTypes.STRING,
-            allowNull: false
+        description: {
+            type: DataTypes.TEXT,
+        },
+        height: {
+            type: DataTypes.TEXT,
+            allowNull: false,
         },
         size: {
             type: DataTypes.STRING,
         }, 
-        energy: {
-            type: DataTypes.INTEGER,
+        weight: {
+            type: DataTypes.TEXT,
+            allowNull: false,
+        },
+        life: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        breedGroup: {
+            type: DataTypes.STRING,
+            allowNull: false
         },
         children: {
-            type: DataTypes.INTEGER,
-        },
-        protective: {
             type: DataTypes.INTEGER,
         },
         otherDogs: {
             type: DataTypes.INTEGER,
         },
+        grooming: {
+            type: DataTypes.INTEGER,
+        },
+        coat: {
+            type: DataTypes.STRING,
+        },
         strangers: {
             type: DataTypes.INTEGER,
         },
-        grooming: {
+        playfulness: {
+            type:DataTypes.INTEGER,
+        },
+        protective: {
             type: DataTypes.INTEGER,
         },
         trainable: {
@@ -48,35 +66,9 @@ Dogs.init(
         barking: {
             type: DataTypes.INTEGER,
         },
-        life: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        coat: {
-            type: DataTypes.STRING,
-        },
-        weight: {
-            type: DataTypes.TEXT,
-            allowNull: false,
-        },
-        height: {
-            type: DataTypes.TEXT,
-            allowNull: false,
-        },
-        playfulness: {
-            type:DataTypes.INTEGER,
-        },
         energy: {
             type: DataTypes.INTEGER,
-            allowNull: false,
         },
-        coat: {
-            type: DataTypes.STRING,
-        },
-        description: {
-            type: DataTypes.TEXT,
-            allowNull: false,
-        }
     },
 
 {
