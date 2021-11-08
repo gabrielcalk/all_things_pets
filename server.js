@@ -68,10 +68,6 @@ app.use('/info', infoRouter);
 const nameRouter = require('./controllers/name');
 app.use('/name', nameRouter)
 
-// Info Router: /infoDogs
-const infoDogsRouter = require('./routes/api/infoDogs');
-app.use('/infoDogs', infoDogsRouter);
-
 // 404 page
 app.use((req,res) =>{
     res.sendFile(path.join(__dirname, './public', '/html', '404page.html'))
