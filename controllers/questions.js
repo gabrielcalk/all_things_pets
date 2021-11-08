@@ -1,5 +1,5 @@
 const questionsRouter = require('express').Router()
-const Cats = require('../models/cats');
+const Cats = require('../models/Cats1');
 const Dogs = require('../models/dogs');
 
 /**
