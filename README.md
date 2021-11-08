@@ -18,6 +18,7 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
   * [Installation](#installation)  
   * [Test](#test)
   * [Problems](#problems)
+  * [Connections](#connections)
   * [Visualization](#visualization)
   * [Acknowledgements](#acknowledgements)
   * [Contributions](#contributions)
@@ -67,7 +68,14 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
   
 ![handlebars](images/handlebars.png) ![npm i handlebars](./images/npm-i-hbars.png)
 
+
+* In order to connect our information to HTML we used Handlebars templating language. This allowed for fast design of the HTML page. Handlebars allows the web developer utilize the front end template to connect to the backend database.
+
+![Mindly](./public/images/Mindly.png)
+* We used Mindly to assist in visualizing the connections from one part of the website to the next
+
 * In order to connect our information to HTML we used Handlebars templating language. This allowed for fast design of the HTML page. Handlebars allows the web developer utilize the front end template to connect to the backend database. This gave us a spot to export our data onto the webpage that had been sequalized into mySQL.
+
   
 ![mysql](./images/mysql.png) ![sequelize](./images/sequelize.png)
 
@@ -86,6 +94,121 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
 ## Problems
 
   We weren't able to find a api that had the information we were looking for so we had to manually input each line of the database from pet websites in order to use the data we need to create the correct
+
+## Connections
+
+
+
+All Things Pets Homepage
+
+	  I Already Have A Pet
+
+		    What would you like to do today?
+
+			      Park
+
+				        Place information
+
+			      Restaurant
+
+				        Place information
+
+			      Grooming/Training
+
+				        Place information
+
+			      Vet
+
+				        Place information
+
+			      Retail
+
+				        Place information
+
+			      Rescue
+
+				        Place information
+
+			      Home Services
+
+				        Place information
+
+			      Camping
+
+				        Place information
+
+			      Beach
+
+				        Place information
+
+			      Hotel
+
+				        Place Information
+
+			      Boarding
+
+				        Place information
+
+			      Bakery
+
+				        Place information
+
+	  I Want A Name For My Pet
+
+		    Letter Selection
+
+			      Search By Male
+
+			      Search By Female
+
+		    Add One Name
+
+	  Login
+
+		    Login
+
+		    Signup
+
+	  I Am Looking For A Pet
+
+		    Dog
+
+			      Dog Quiz
+
+				        Suggested Dogs
+
+					          Breed
+
+						            Breed Name
+
+						            Breed Description
+
+						            Breed Image
+
+		    Cat
+
+			      Cat Quiz
+
+				        Suggested Cats
+
+					          Breed
+
+						            Breed Name
+
+						            Breed Description
+
+						            Breed Image
+
+				            Pet Rock
+404 Page
+
+
+
+
+
+Connection Map
+![connection map](./images/connection-map.png)
+
 
 ## Visualization
 
