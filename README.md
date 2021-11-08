@@ -67,8 +67,8 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
   
 ![handlebars](images/handlebars.png) ![npm i handlebars](./images/npm-i-hbars.png)
 
-* In order to connect our information to HTML we used Handlebars templating language. This allowed for fast design of the HTML page.
-
+* In order to connect our information to HTML we used Handlebars templating language. This allowed for fast design of the HTML page. Handlebars allows the web developer utilize the front end template to connect to the backend database.
+  
 ## Usage
 
   Build a db that is user friendly
@@ -85,7 +85,29 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
 
 ## Visualization
 
-placeholder to add images or other media
+Mockup choose your pet
+![choose your pet](./images/_pets-for-you.png)
+
+Mockup pet questionaire
+![questions](./images/_questions(2).png)
+
+mockup questionaire
+![](images/_questions(1).png)
+
+mock up sign up 
+![sign up page](images/_signup.png)
+
+Mockup visualization for Login page
+![mockup login](./images/_login.png)
+
+Mockup for pet friendly locations parks, restaurants and vets
+![mockup local pet friendly places](images/_info%20-%20part(1).png)
+
+Mockup for locations boarding and training
+![mockup](./images/_info%20-%20part(2).png)
+
+mockup 404 page
+![404](images/404%20page.png)
 
 ## Acknowledgements
 
