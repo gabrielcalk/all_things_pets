@@ -112,8 +112,6 @@ const get_inputs = async () =>{
     })
     .then((response) => response.json())
     .then((cats) => {
-        console.log(cats)
-        console.log(inputs_picked)
         main_questions.classList.add('hide');
         footer_questions.classList.add('hide');
         section_cats_for_you.classList.remove('hide')
@@ -134,7 +132,21 @@ const get_inputs = async () =>{
             }
         }
         if (cats_for_user.length == 0){
-            alert('No Cats For You')
+            const section_rock = document.createElement('section')
+            const img_rock = document.createElement('img');
+            const a_rock = document.createElement('a');
+
+            a_rock.classList.add('d-block', 'h2', 'my-3', 'font_rock', 'text-center');
+            img_rock.classList.add('image_rock')
+
+            a_rock.setAttribute("href", "https://www.amazon.com/Pet-Rock-Authentic-Approved-Original/dp/B07KN9FK4B");
+            a_rock.textContent = 'Sorry it look like Mr Whiskers couldn’t find a cat to your specification. Sylvester the Stone has a pet suggestion for you.';
+            img_rock.src = '/images/pet_rock.png';
+            
+            section_rock.append(a_rock);
+            section_rock.append(img_rock);
+
+            section_cats_for_you.append(section_rock);
         } 
 
         for(i = 0; i < cats_for_user.length; i++){
