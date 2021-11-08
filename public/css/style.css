@@ -152,6 +152,7 @@ button:hover{
 .section_questions{
     background-color: var(--color1);
     color: var(--color3);
+    width: 100%;
 }
 
 .hide{
