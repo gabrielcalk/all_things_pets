@@ -68,32 +68,30 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
   
 ![handlebars](images/handlebars.png) ![npm i handlebars](./images/npm-i-hbars.png)
 
-
-* In order to connect our information to HTML we used Handlebars templating language. This allowed for fast design of the HTML page. Handlebars allows the web developer utilize the front end template to connect to the backend database.
-
-![Mindly](./public/images/Mindly.png)
-* We used Mindly to assist in visualizing the connections from one part of the website to the next
-
 * In order to connect our information to HTML we used Handlebars templating language. This allowed for fast design of the HTML page. Handlebars allows the web developer utilize the front end template to connect to the backend database. This gave us a spot to export our data onto the webpage that had been sequalized into mySQL.
 
-  
+![Mindly](./public/images/Mindly.png)
+
+* We used Mindly to assist in visualizing the connections from one part of the website to the next.
+ 
 ![mysql](./images/mysql.png) ![sequelize](./images/sequelize.png)
 
-* In order to connect to our database we used the npm package sequelize. This allowed us to seed our data into the sql table database. 
-
-## Usage
-
-  Build a db that is user friendly
+* In order to connect to our database we used the npm package sequelize. This allowed us to seed our data into the sql table database. This was done via the GET and POST routes via Express/
 
 ## Installation
   
-  npm i  
-
-## Test
+* npm i  
+* Then set up your mySQL data base to connect to
+* run the command NPM run seeds to make sure your data is seeding out of the seeds folder into the db.
+* then type node server.js
 
 ## Problems
 
-  We weren't able to find a api that had the information we were looking for so we had to manually input each line of the database from pet websites in order to use the data we need to create the correct
+* We weren't able to find a api that had the information we were looking for so we had to manually input each line of the database from pet websites in order to use the data we need to create the correct information needed to solve our problem.
+  
+* Connecting to heroku database. We had to troubleshoot the Heroku log in order to correct case sensitive data folder that github ignored when it was pushed.
+
+* Connecting the database to heroku.  
 
 ## Connections
 
