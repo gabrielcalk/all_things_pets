@@ -8,7 +8,7 @@
 
 Covid-19 changed the way American's have lived their lives. In fact, pet adoptions increased by 30 to 40 percent in the year 2020 when compared to 2019. Unfortunately, by the following year, pet surrenders were up by 80%. Adopting a animal is a large responsibility that often times people are not prepared for. This application's purpose is to create a database on pet ownership and descriptions of various animals in order for the user to make a more informed decisions on future pet adoptions or integrating the user's pet into their daily activities.
 
-<!-- [URL](undefined) -->
+* [All Things Pets Deployed Web Page](https://vast-retreat-92642.herokuapp.com/)
 
   ## Table of Contents
   
@@ -16,7 +16,6 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
   * [Implementation](#implementation)
   * [Usage](#usage) 
   * [Installation](#installation)  
-  * [Test](#test)
   * [Problems](#problems)
   * [Connections](#connections)
   * [Visualization](#visualization)
@@ -68,38 +67,44 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
   
 ![handlebars](images/handlebars.png) ![npm i handlebars](./images/npm-i-hbars.png)
 
-
-* In order to connect our information to HTML we used Handlebars templating language. This allowed for fast design of the HTML page. Handlebars allows the web developer utilize the front end template to connect to the backend database.
-
-![Mindly](./public/images/Mindly.png)
-* We used Mindly to assist in visualizing the connections from one part of the website to the next
-
 * In order to connect our information to HTML we used Handlebars templating language. This allowed for fast design of the HTML page. Handlebars allows the web developer utilize the front end template to connect to the backend database. This gave us a spot to export our data onto the webpage that had been sequalized into mySQL.
 
-  
+![Mindly](./public/images/Mindly.png)
+
+* We used Mindly to assist in visualizing the connections from one part of the website to the next.
+ 
 ![mysql](./images/mysql.png) ![sequelize](./images/sequelize.png)
 
-* In order to connect to our database we used the npm package sequelize. This allowed us to seed our data into the sql table database. 
+* In order to connect to our database we used the npm package sequelize. This allowed us to seed our data into the sql table database. This was done via the GET and POST routes via Express.
 
-## Usage
+* There were a couple new technologies utilized in this group project.
 
-  Build a db that is user friendly
+![anime js](images/anime.jpg)
 
+* Anime JS allowed us to header animation to our site. We plan to go in later into our project utilize this ability more on the page to give it a less static feel.
+
+* [Beautify Tools](https://beautifytools.com/excel-to-json-converter.php) was also utilized to convert the data from the excel spreadsheet into a JSON. The subject matter for our project was so specific we researched our data from various petsites to create our own API. This was definitely a challenge but a exellent one.
+
+* Technologies used for this project were Express, Express Session, Sequelize, Node, AnimeJS, Beautify tools, and handlebarsjs mySQL.
+   
 ## Installation
   
-  npm i  
-
-## Test
+* npm i  
+* Then set up your mySQL data base to connect to
+* run the command NPM run seeds to make sure your data is seeding out of the seeds folder into the db.
+* then type node server.js
 
 ## Problems
 
-  We weren't able to find a api that had the information we were looking for so we had to manually input each line of the database from pet websites in order to use the data we need to create the correct
+* We weren't able to find a api that had the information we were looking for so we had to manually input each line of the database from pet websites in order to use the data we need to create the correct information needed to solve our problem.
+  
+* Connecting to heroku database. We had to troubleshoot the Heroku log in order to correct case sensitive data folder that github ignored when it was pushed.
+
+* Connecting the database to heroku.  
 
 ## Connections
 
-
-
-All Things Pets Homepage
+All Things Pets Homepage and layout of how website is designed.
 
 	  I Already Have A Pet
 
@@ -202,11 +207,8 @@ All Things Pets Homepage
 				            Pet Rock
 404 Page
 
+Connection Map Bellow is connection map of how the websit is laid out and information was gathered in the research process.
 
-
-
-
-Connection Map
 ![connection map](./images/connection-map.png)
 
 
@@ -236,9 +238,6 @@ Mockup for locations boarding and training
 mockup 404 page
 ![404](images/404%20page.png)
 
-## Acknowledgements
-
-## Contributions
 
 ## Resources
  
@@ -247,7 +246,25 @@ mockup 404 page
 [Pet Surrenders During 2021](https://www.nbcboston.com/news/clear-the-shelters/animals-adopted-during-pandemic-are-being-returned-to-shelters/2380084/)
 
 [Eloquent Javascript](https://eloquentjavascript.net)
-  
+
+[Beautify Tools](https://beautifytools.com/excel-to-json-converter.php)
+
+[AKC for Pure Breed information](https://beautifytools.com/excel-to-json-converter.php)
+
+[Dog Time for information on mixed breeds](https://dogtime.com)
+
+[cat information]()
+
+[Pet friendly locations](bringfido.com)
+
+[google searches](google.com)
+
+[Daily Paws](Dailypaws.com)
+
+[Mindly](mindly.com)
+
+[wamiz](wamiz.co.uk)
+
 ## License
 
 Brent Graves, Huston "Fenix" Sampson, Meredith Coyne, and Gabriel Cavalcante Causin  Copyright 2021
