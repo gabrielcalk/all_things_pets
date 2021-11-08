@@ -20,7 +20,11 @@ const PORT = process.env.PORT || 3001;
 
 const sess = {
     secret: 'Secret Secret',
-    cookie:{},
+    cookie: {
+        // Stored in milliseconds (60000 === 1 minute)
+        //Store for 15 Minutes
+        maxAge: 900000,
+      },
     resave: false,
     saveUninitialized: true,
     store: new SequelizeStore({
