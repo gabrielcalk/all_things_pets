@@ -8,7 +8,7 @@
 
 Covid-19 changed the way American's have lived their lives. In fact, pet adoptions increased by 30 to 40 percent in the year 2020 when compared to 2019. Unfortunately, by the following year, pet surrenders were up by 80%. Adopting a animal is a large responsibility that often times people are not prepared for. This application's purpose is to create a database on pet ownership and descriptions of various animals in order for the user to make a more informed decisions on future pet adoptions or integrating the user's pet into their daily activities.
 
-<!-- [URL](undefined) -->
+* [All Things Pets Deployed Web Page](https://vast-retreat-92642.herokuapp.com/)
 
   ## Table of Contents
   
@@ -85,7 +85,7 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
 
 * [Beautify Tools](https://beautifytools.com/excel-to-json-converter.php) was also utilized to convert the data from the excel spreadsheet into a JSON. The subject matter for our project was so specific we researched our data from various petsites to create our own API. This was definitely a challenge but a exellent one.
 
-* Technologies used for this project were Express, Express Session, Sequelize, Node, AnimeJS, Beautify tools, and handlebarsjs. 
+* Technologies used for this project were Express, Express Session, Sequelize, Node, AnimeJS, Beautify tools, and handlebarsjs mySQL.
    
 ## Installation
   
@@ -246,7 +246,25 @@ mockup 404 page
 [Pet Surrenders During 2021](https://www.nbcboston.com/news/clear-the-shelters/animals-adopted-during-pandemic-are-being-returned-to-shelters/2380084/)
 
 [Eloquent Javascript](https://eloquentjavascript.net)
-  
+
+[Beautify Tools](https://beautifytools.com/excel-to-json-converter.php)
+
+[AKC for Pure Breed information](https://beautifytools.com/excel-to-json-converter.php)
+
+[Dog Time for information on mixed breeds](https://dogtime.com)
+
+[cat information]()
+
+[Pet friendly locations](bringfido.com)
+
+[google searches](google.com)
+
+[Daily Paws](Dailypaws.com)
+
+[Mindly](mindly.com)
+
+[wamiz](wamiz.co.uk)
+
 ## License
 
 Brent Graves, Huston "Fenix" Sampson, Meredith Coyne, and Gabriel Cavalcante Causin  Copyright 2021
