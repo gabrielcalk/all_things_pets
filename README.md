@@ -14,13 +14,11 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
   
   * [Goals](#goals)
   * [Implementation](#implementation)
-  * [Usage](#usage) 
   * [Installation](#installation)  
   * [Problems](#problems)
   * [Connections](#connections)
-  * [Visualization](#visualization)
-  * [Acknowledgements](#acknowledgements)
-  * [Contributions](#contributions)
+  * [Visualization Mockup](#visualization)
+  * [Visualization Of Deployed Page](#visualization2)
   * [Resources](#resources)
   * [License](#license)
   * [Contact](#contact)
@@ -239,6 +237,8 @@ Mockup for locations boarding and training
 
 mockup 404 page
 ![404](images/404%20page.png)
+
+## Visualization2
 
 Deployed Homepage
 ![homepage](./images/homepage.png)
