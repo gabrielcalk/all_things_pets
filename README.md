@@ -84,7 +84,9 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
 * [Beautify Tools](https://beautifytools.com/excel-to-json-converter.php) was also utilized to convert the data from the excel spreadsheet into a JSON. The subject matter for our project was so specific we researched our data from various petsites to create our own API. This was definitely a challenge but a exellent one.
 
 * Technologies used for this project were Express, Express Session, Sequelize, Node, AnimeJS, Beautify tools, and handlebarsjs mySQL.
-   
+
+* Authentication utilized secret along with cookies that times out the login at 15 minutes.
+
 ## Installation
   
 * npm i  
