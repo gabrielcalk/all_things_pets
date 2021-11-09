@@ -14,13 +14,11 @@ Covid-19 changed the way American's have lived their lives. In fact, pet adoptio
   
   * [Goals](#goals)
   * [Implementation](#implementation)
-  * [Usage](#usage) 
   * [Installation](#installation)  
   * [Problems](#problems)
   * [Connections](#connections)
-  * [Visualization](#visualization)
-  * [Acknowledgements](#acknowledgements)
-  * [Contributions](#contributions)
+  * [Visualization Mockup](#visualization)
+  * [Visualization Of Deployed Page](#visualization2)
   * [Resources](#resources)
   * [License](#license)
   * [Contact](#contact)
@@ -240,9 +238,51 @@ Mockup for locations boarding and training
 mockup 404 page
 ![404](images/404%20page.png)
 
+## Visualization2
+
+Deployed Homepage
+![homepage](./images/homepage.png)
+
+Login to deployed page
+![login page](./images/login-ihaveapet.png)
+
+Dog Questions
+![Dog Questions 1](/images/dogquestions1.png)
+![dog questions 2](images/dogquestions2.png)
+![dog questions 3](images/dogquestions3.png)
+![dog questions 4](images/dogquestion4.png)
+
+Dog Result Recommendations
+![Dog Results](images/dogbreedrecommedations.png)
+
+Cat Questions
+![cat questions 1](images/catquestions1.png)
+![cat question 2](images/catquestions2.png)
+![cat question 3](images/catquestions3.png)
+
+Cat Result Recommendations
+![Cat Recommendations](/images/cat%20recommendations.png)
+
+When the database can't find a pet based on the user's needs we refer the user to different pet suggestion...
+![Pet Rock Suggestion](images/rock%20page.png)
+
+Get a pet Name Page
+![Get name for your pet](images/names.png)
+
+Add a pet name to the database
+![create a name](images/createaname.png)
+
+Pet name Added to database
+![Name Added](images/gabrieladded.png)
+
+Things to do
+![Things to do](/images/things-to-do.png)
+
+Example of a displayed option for things to do
+![](/images/contentofthingstodoexample.png)
 
 ## Resources
- 
+
 [Pet Adoption Increase during 2020](https://www.washingtonpost.com/dc-md-va/2021/01/06/animal-shelters-coronavirus-pandemic/)
 
 [Pet Surrenders During 2021](https://www.nbcboston.com/news/clear-the-shelters/animals-adopted-during-pandemic-are-being-returned-to-shelters/2380084/)
