@@ -26,6 +26,7 @@
   "homepage": "https://github.com/gabrielcalk/all_things_pets#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
     "connect-session-sequelize": "^7.1.2",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
