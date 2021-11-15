@@ -9,12 +9,15 @@ const Catnames = require("./models/catnames");
 const User = require('./models/user');
 const locations = require('./models/locations');
 const sequelize = require("./config/connections");
+const compression = require('compression')
 require('dotenv').config();
 
 const session = require("express-session");
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
 const app = express();
+app.use(compression)
+
 const PORT = process.env.PORT || 3001;
 
 // const hbs = exphbs.create({ helpers });
