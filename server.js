@@ -16,7 +16,7 @@ const session = require("express-session");
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
 const app = express();
-app.use(compression)
+app.use(compression())
 
 const PORT = process.env.PORT || 3001;
 
